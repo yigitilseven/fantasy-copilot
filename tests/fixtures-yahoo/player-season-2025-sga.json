@@ -1,0 +1,170 @@
+{
+  "fantasy_content": {
+    "xml:lang": "en-US",
+    "yahoo:uri": "/fantasy/v2/x",
+    "player": [
+      [
+        {
+          "player_key": "466.p.5864"
+        },
+        {
+          "player_id": "5864"
+        },
+        {
+          "name": {
+            "full": "Shai Gilgeous-Alexander",
+            "first": "Shai",
+            "last": "Gilgeous-Alexander",
+            "ascii_first": "Shai",
+            "ascii_last": "Gilgeous-Alexander"
+          }
+        },
+        {
+          "editorial_player_key": "nba.p.5864"
+        },
+        {
+          "editorial_team_key": "nba.t.7"
+        },
+        {
+          "editorial_team_full_name": "Team"
+        },
+        {
+          "editorial_team_abbr": "Okc"
+        },
+        {
+          "uniform_number": "15"
+        },
+        {
+          "display_position": "PG,SG"
+        },
+        {
+          "headshot": {
+            "url": "https://s.yimg.com/x.png",
+            "size": "small"
+          }
+        },
+        {
+          "image_url": "https://s.yimg.com/x.png"
+        },
+        {
+          "is_undroppable": "0"
+        },
+        {
+          "position_type": "P"
+        },
+        {
+          "primary_position": "PG"
+        },
+        {
+          "eligible_positions": [
+            {
+              "position": "PG"
+            },
+            {
+              "position": "SG"
+            },
+            {
+              "position": "G"
+            },
+            {
+              "position": "Util"
+            }
+          ]
+        },
+        [],
+        {
+          "has_player_notes": 1
+        }
+      ],
+      {
+        "player_stats": {
+          "coverage_type": "season",
+          "season": "2025",
+          "stats": [
+            {
+              "stat": {
+                "stat_id": "0",
+                "value": "76"
+              }
+            },
+            {
+              "stat": {
+                "stat_id": "2",
+                "value": "2584"
+              }
+            },
+            {
+              "stat": {
+                "stat_id": "9004003",
+                "value": "850/1580"
+              }
+            },
+            {
+              "stat": {
+                "stat_id": "5",
+                "value": ".538"
+              }
+            },
+            {
+              "stat": {
+                "stat_id": "9007006",
+                "value": "700/780"
+              }
+            },
+            {
+              "stat": {
+                "stat_id": "8",
+                "value": ".897"
+              }
+            },
+            {
+              "stat": {
+                "stat_id": "10",
+                "value": "120"
+              }
+            },
+            {
+              "stat": {
+                "stat_id": "12",
+                "value": "2520"
+              }
+            },
+            {
+              "stat": {
+                "stat_id": "15",
+                "value": "380"
+              }
+            },
+            {
+              "stat": {
+                "stat_id": "16",
+                "value": "480"
+              }
+            },
+            {
+              "stat": {
+                "stat_id": "17",
+                "value": "130"
+              }
+            },
+            {
+              "stat": {
+                "stat_id": "18",
+                "value": "75"
+              }
+            },
+            {
+              "stat": {
+                "stat_id": "19",
+                "value": "160"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "time": "12.3ms",
+    "copyright": "Data provided by Yahoo! and STATS, LLC",
+    "refresh_rate": "60"
+  }
+}

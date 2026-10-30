@@ -1,0 +1,86 @@
+[
+ {
+  "ID": "5428",
+  "URL": "/basketball/player/santi-aldama-5428",
+  "firstname": "Santi",
+  "lastname": "Aldama",
+  "player": "Santi Aldama",
+  "team": "DAL",
+  "position": "F",
+  "injury": "Undisclosed",
+  "status": "Questionable",
+  "rDate": "<i>Subscribers Only</i>"
+ },
+ {
+  "ID": "5424",
+  "URL": "/basketball/player/jose-alvarado-5424",
+  "firstname": "Jose",
+  "lastname": "Alvarado",
+  "player": "Jose Alvarado",
+  "team": "NYK",
+  "position": "G",
+  "injury": "Knee",
+  "status": "Questionable",
+  "rDate": "<i>Subscribers Only</i>"
+ },
+ {
+  "ID": "3303",
+  "URL": "/basketball/player/bradley-beal-3303",
+  "firstname": "Bradley",
+  "lastname": "Beal",
+  "player": "Bradley Beal",
+  "team": "LAC",
+  "position": "G",
+  "injury": "Knee",
+  "status": "Questionable",
+  "rDate": "<i>Subscribers Only</i>"
+ },
+ {
+  "ID": "5412",
+  "URL": "/basketball/player/aaron-wiggins-5412",
+  "firstname": "Aaron",
+  "lastname": "Wiggins",
+  "player": "Aaron Wiggins",
+  "team": "ATL",
+  "position": "F",
+  "injury": "Lips",
+  "status": "Questionable",
+  "rDate": "<i>Subscribers Only</i>"
+ },
+ {
+  "ID": "3231",
+  "URL": "/basketball/player/jimmy-butler-3231",
+  "firstname": "Jimmy",
+  "lastname": "Butler",
+  "player": "Jimmy Butler",
+  "team": "GSW",
+  "position": "F",
+  "injury": "Knee",
+  "status": "Out",
+  "rDate": "<i>Subscribers Only</i>"
+ },
+ {
+  "ID": "4439",
+  "URL": "/basketball/player/donte-divincenzo-4439",
+  "firstname": "Donte",
+  "lastname": "DiVincenzo",
+  "player": "Donte DiVincenzo",
+  "team": "MIN",
+  "position": "G",
+  "injury": "Achilles",
+  "status": "Out",
+  "rDate": "<i>Subscribers Only</i>"
+ },
+ {
+  "ID": "6272",
+  "URL": "/basketball/player/johnny-furphy-6272",
+  "firstname": "Johnny",
+  "lastname": "Furphy",
+  "player": "Johnny Furphy",
+  "team": "IND",
+  "position": "G",
+  "injury": "Knee",
+  "status": "Out",
+  "rDate": "<i>Subscribers Only</i>"
+ }
+]

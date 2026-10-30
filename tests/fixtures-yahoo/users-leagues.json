@@ -1,0 +1,66 @@
+{
+  "fantasy_content": {
+    "xml:lang": "en-US",
+    "yahoo:uri": "/fantasy/v2/x",
+    "users": {
+      "0": {
+        "user": [
+          {
+            "guid": "ABC123"
+          },
+          {
+            "games": {
+              "0": {
+                "game": [
+                  {
+                    "game_key": "466",
+                    "code": "nba",
+                    "season": "2026"
+                  },
+                  {
+                    "leagues": {
+                      "0": {
+                        "league": [
+                          {
+                            "league_key": "466.l.12345",
+                            "league_id": "12345",
+                            "name": "Draft Kings",
+                            "url": "u",
+                            "draft_status": "predraft",
+                            "num_teams": 14,
+                            "scoring_type": "head",
+                            "season": "2026"
+                          }
+                        ]
+                      },
+                      "1": {
+                        "league": [
+                          {
+                            "league_key": "466.l.67890",
+                            "league_id": "67890",
+                            "name": "Side League",
+                            "url": "u",
+                            "draft_status": "postdraft",
+                            "num_teams": 10,
+                            "scoring_type": "head",
+                            "season": "2026"
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                ]
+              },
+              "count": 1
+            }
+          }
+        ]
+      },
+      "count": 1
+    },
+    "time": "12.3ms",
+    "copyright": "Data provided by Yahoo! and STATS, LLC",
+    "refresh_rate": "60"
+  }
+}

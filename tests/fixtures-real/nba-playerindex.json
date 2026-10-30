@@ -1,0 +1,52 @@
+{
+ "resource": "playerindex",
+ "resultSets": [
+  {
+   "name": "PlayerIndex",
+   "headers": [
+    "PERSON_ID",
+    "PLAYER_LAST_NAME",
+    "PLAYER_FIRST_NAME",
+    "TEAM_ABBREVIATION",
+    "POSITION"
+   ],
+   "rowSet": [
+    [
+     1,
+     "Joki\u0107",
+     "Nikola",
+     "DEN",
+     "C"
+    ],
+    [
+     2,
+     "Claxton",
+     "Nic",
+     "BKN",
+     "C"
+    ],
+    [
+     3,
+     "Jackson Jr.",
+     "Jaren",
+     "MEM",
+     "F-C"
+    ],
+    [
+     5,
+     "Star",
+     "Injured",
+     "IND",
+     "G"
+    ],
+    [
+     6,
+     "Short",
+     "Prior",
+     "UTA",
+     "G-F"
+    ]
+   ]
+  }
+ ]
+}

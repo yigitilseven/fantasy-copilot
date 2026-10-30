@@ -1,0 +1,139 @@
+# Always-on deployment. See deploy/README.md. Copy .env.example to .env first.
+#   docker compose up -d --build
+# With a domain: COMPOSE_PROFILES=domain in .env also starts Caddy (automatic HTTPS + login). Without: everything listens on 127.0.0.1 only.
+name: fantasy
+
+x-restart: &restart
+  restart: unless-stopped
+x-logging: &logging
+  logging:
+    driver: json-file
+    options: { max-size: "10m", max-file: "3" }
+
+services:
+  app:
+    <<: [*restart, *logging]
+    build: { context: ., dockerfile: deploy/Dockerfile, target: app }
+    image: fantasy-app
+    user: "1000:1000"
+    environment:
+      TZ: ${TZ:-UTC}
+      DB_FILE_NAME: /app/data/fantasy.sqlite
+      VAPID_PUBLIC_KEY: ${VAPID_PUBLIC_KEY:-}
+      VAPID_PRIVATE_KEY: ${VAPID_PRIVATE_KEY:-}
+      VAPID_SUBJECT: ${VAPID_SUBJECT:-mailto:admin@example.com}
+      SEASON_AUTO_REFRESH: ${SEASON_AUTO_REFRESH:-1}
+      # the "Refresh data" button asks the browser worker for a Yahoo sync
+      WORKER_URL: http://browser-worker:8081
+      WORKER_TOKEN: ${WORKER_TOKEN:-}
+      NEWS_AUTO_REFRESH: ${NEWS_AUTO_REFRESH:-1}
+    volumes:
+      - ./data:/app/data
+    ports:
+      - "127.0.0.1:3000:3000"
+
+  scheduler:
+    <<: [*restart, *logging]
+    build: { context: ., dockerfile: deploy/Dockerfile, target: ops }
+    image: fantasy-ops
+    user: "1000:1000"
+    depends_on:
+      app: { condition: service_healthy }
+    environment:
+      TZ: ${TZ:-UTC}
+      APP_URL: http://app:3000
+      WORKER_URL: http://browser-worker:8081
+      WORKER_TOKEN: ${WORKER_TOKEN:-}
+      REPORTS_DIR: /app/data/reports
+      CLAUDE_CWD: /work
+      OPS_STATE_FILE: /app/data/ops/scheduler.json
+      BRIEF_TIME: ${BRIEF_TIME:-08:30}
+      BRIEF_SYNC_FIRST: ${BRIEF_SYNC_FIRST:-1}
+      WEEKLY_PLAN_DAY: ${WEEKLY_PLAN_DAY-Mon}
+      REBRIEF_MINUTES: ${REBRIEF_MINUTES:-15}
+      WEEKLY_PLAN_MAX_CHARS: ${WEEKLY_PLAN_MAX_CHARS:-2800}
+      INJURY_WATCH_MINUTES: ${INJURY_WATCH_MINUTES:-0}
+      INJURY_CLAUDE: ${INJURY_CLAUDE:-1}
+      CLAUDE_CODE_OAUTH_TOKEN: ${CLAUDE_CODE_OAUTH_TOKEN:-}
+      CLAUDE_TOKEN_CREATED: ${CLAUDE_TOKEN_CREATED:-}
+      CLAUDE_MODEL: ${CLAUDE_MODEL:-}
+      CLAUDE_EXTRA_ARGS: ${CLAUDE_EXTRA_ARGS:-}
+      CLAUDE_TIMEOUT_SECONDS: ${CLAUDE_TIMEOUT_SECONDS:-300}
+      NOTIFY_CHANNELS: ${NOTIFY_CHANNELS:-}
+      SMTP_HOST: ${SMTP_HOST:-}
+      SMTP_PORT: ${SMTP_PORT:-587}
+      SMTP_SECURE: ${SMTP_SECURE:-}
+      SMTP_USER: ${SMTP_USER:-}
+      SMTP_PASS: ${SMTP_PASS:-}
+      SMTP_FROM: ${SMTP_FROM:-}
+      SMTP_TO: ${SMTP_TO:-}
+      # ANTHROPIC_API_KEY is deliberately NOT passed: it would take precedence over the subscription token and bill the API.
+    volumes:
+      - ./data/reports:/app/data/reports
+      - ./data/ops:/app/data/ops
+      - ./data/reports:/work:ro   # Claude's working directory: read-only
+      - claude-config:/home/node/.claude
+
+  browser-worker:
+    <<: [*restart, *logging]
+    build: { context: ., dockerfile: deploy/Dockerfile, target: worker }
+    image: fantasy-worker
+    depends_on:
+      app: { condition: service_healthy }
+    shm_size: 1gb
+    security_opt: ["no-new-privileges:true"]
+    environment:
+      TZ: ${TZ:-UTC}
+      APP_URL: http://app:3000
+      DOMAIN: ${DOMAIN:-}
+      YAHOO_LEAGUE_ID: ${YAHOO_LEAGUE_ID:-}
+      YAHOO_TEAM_ID: ${YAHOO_TEAM_ID:-}
+      NOVNC_PASSWORD: ${NOVNC_PASSWORD:?set NOVNC_PASSWORD in .env}
+      NOVNC_PUBLIC_URL: ${NOVNC_PUBLIC_URL:-}
+      WORKER_TOKEN: ${WORKER_TOKEN:-}
+      SYNC_EVERY_HOURS: ${SYNC_EVERY_HOURS:-1}
+      SYNC_JITTER_MINUTES: ${SYNC_JITTER_MINUTES:-10}
+      MAX_SYNCS_PER_DAY: ${MAX_SYNCS_PER_DAY:-30}
+      SYNC_QUIET_HOURS: ${SYNC_QUIET_HOURS:-}
+      LOGIN_RETRY_HOURS: ${LOGIN_RETRY_HOURS:-6}
+      LOGIN_ALERT_REPEAT_HOURS: ${LOGIN_ALERT_REPEAT_HOURS:-12}
+      NOTIFY_CHANNELS: ${NOTIFY_CHANNELS:-}
+      SMTP_HOST: ${SMTP_HOST:-}
+      SMTP_PORT: ${SMTP_PORT:-587}
+      SMTP_SECURE: ${SMTP_SECURE:-}
+      SMTP_USER: ${SMTP_USER:-}
+      SMTP_PASS: ${SMTP_PASS:-}
+      SMTP_FROM: ${SMTP_FROM:-}
+      SMTP_TO: ${SMTP_TO:-}
+    volumes:
+      - chromium-profile:/profile   # the Yahoo login lives here
+      - worker-state:/state
+    ports:
+      - "127.0.0.1:6080:6080"   # noVNC (SSH tunnel); with a domain Caddy serves it at /browser/
+      - "127.0.0.1:8081:8081"   # worker control (manual sync, status)
+
+  caddy:
+    <<: [*restart, *logging]
+    profiles: ["domain"]
+    image: caddy:2-alpine
+    depends_on: [app, browser-worker]
+    environment:
+      DOMAIN: ${DOMAIN:-fantasy.example.com}
+      BASIC_AUTH_USER: ${BASIC_AUTH_USER:?set BASIC_AUTH_USER in .env}
+      BASIC_AUTH_PASSWORD: ${BASIC_AUTH_PASSWORD:?set BASIC_AUTH_PASSWORD in .env}
+    # hash the plain password at start so .env never needs a bcrypt string with $ signs
+    entrypoint: ["/bin/sh", "-c", "BASIC_AUTH_HASH=$$(caddy hash-password --plaintext \"$$BASIC_AUTH_PASSWORD\") && export BASIC_AUTH_HASH && exec caddy run --config /etc/caddy/Caddyfile --adapter caddyfile"]
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    ports:
+      - "80:80"
+      - "443:443"
+
+volumes:
+  claude-config:
+  chromium-profile:
+  worker-state:
+  caddy-data:
+  caddy-config:

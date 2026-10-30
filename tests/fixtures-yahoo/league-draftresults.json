@@ -1,0 +1,75 @@
+{
+  "fantasy_content": {
+    "xml:lang": "en-US",
+    "yahoo:uri": "/fantasy/v2/x",
+    "league": [
+      {
+        "league_key": "466.l.12345",
+        "num_teams": 14
+      },
+      {
+        "draft_results": {
+          "0": {
+            "draft_result": {
+              "pick": 1,
+              "round": 1,
+              "team_key": "466.l.12345.t.1",
+              "player_key": "466.p.5352"
+            }
+          },
+          "1": {
+            "draft_result": {
+              "pick": 2,
+              "round": 1,
+              "team_key": "466.l.12345.t.2",
+              "player_key": "466.p.5864"
+            }
+          },
+          "2": {
+            "draft_result": {
+              "pick": 3,
+              "round": 1,
+              "team_key": "466.l.12345.t.3",
+              "player_key": "466.p.6015"
+            }
+          },
+          "3": {
+            "draft_result": {
+              "pick": 4,
+              "round": 1,
+              "team_key": "466.l.12345.t.4",
+              "player_key": "466.p.99999"
+            }
+          },
+          "4": {
+            "draft_result": {
+              "pick": 5,
+              "round": 1,
+              "team_key": "466.l.12345.t.5",
+              "player_key": "466.p.4612"
+            }
+          },
+          "5": {
+            "draft_result": {
+              "pick": 6,
+              "round": 1,
+              "team_key": "466.l.12345.t.6",
+              "player_key": "466.p.7001"
+            }
+          },
+          "6": {
+            "draft_result": {
+              "pick": 7,
+              "round": 1,
+              "team_key": "466.l.12345.t.7"
+            }
+          },
+          "count": 7
+        }
+      }
+    ],
+    "time": "12.3ms",
+    "copyright": "Data provided by Yahoo! and STATS, LLC",
+    "refresh_rate": "60"
+  }
+}

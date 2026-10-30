@@ -1,0 +1,6 @@
+allowBuilds:
+  sharp: false
+  unrs-resolver: false
+  esbuild: false
+# Containers run as a non-root user over a root-installed node_modules: never reinstall before `pnpm <script>`.
+verifyDepsBeforeRun: false

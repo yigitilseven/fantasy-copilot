@@ -1,0 +1,21 @@
+# Used only with COMPOSE_PROFILES=domain. {$DOMAIN} gets a Let's Encrypt certificate automatically (ports 80 and 443 must reach this server).
+{$DOMAIN} {
+	encode zstd gzip
+
+	# Static PWA files the phone must be able to fetch without the login prompt (no data in them).
+	@public path /manifest.webmanifest /sw.js /icons/*
+	handle @public {
+		reverse_proxy app:3000
+	}
+
+	handle {
+		basic_auth {
+			{$BASIC_AUTH_USER} {$BASIC_AUTH_HASH}
+		}
+		# The remote Chromium (noVNC): https://<domain>/browser/vnc.html?autoconnect=1&resize=scale&path=browser/websockify
+		handle_path /browser/* {
+			reverse_proxy browser-worker:6080
+		}
+		reverse_proxy app:3000
+	}
+}

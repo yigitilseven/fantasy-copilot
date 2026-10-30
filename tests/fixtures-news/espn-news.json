@@ -1,0 +1,1265 @@
+{
+ "articles": [
+  {
+   "id": 50111217,
+   "nowId": "1-50111217",
+   "contentKey": "50111217-1-6-1",
+   "dataSourceIdentifier": "45210534c3e92",
+   "type": "Story",
+   "headline": "Basketball Power Index: NBA projections, playoff chances for 2026-27 season",
+   "description": "ESPN's Basketball Power Index projections for the 2026-27 NBA season are out, including a ranking of all 30 teams.",
+   "lastModified": "2026-10-07T14:18:28Z",
+   "published": "2026-10-07T14:18:28Z",
+   "images": [],
+   "categories": [
+    {
+     "id": 9577,
+     "type": "league",
+     "uid": "s:40~l:46",
+     "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+     "description": "NBA",
+     "sportId": 46,
+     "leagueId": 46,
+     "league": {
+      "id": 46,
+      "description": "NBA",
+      "abbreviation": "NBA",
+      "links": {
+       "mobile": {
+        "leagues": {
+         "href": "https://www.espn.com/nba/"
+        }
+       },
+       "web": {
+        "leagues": {
+         "href": "https://www.espn.com/nba/"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 156754,
+     "type": "topic",
+     "guid": "79ace1b6-bda3-b907-2c4c-36f408c6a575",
+     "description": "news - analytics",
+     "sportId": 0,
+     "topicId": 499
+    },
+    {
+     "id": 30935,
+     "type": "league",
+     "guid": "fb228df5-8327-43d2-8397-22138f9bbf47",
+     "description": "NBA Draft",
+     "sportId": 0,
+     "leagueId": 3380,
+     "league": {
+      "id": 3380,
+      "description": "NBA Draft"
+     }
+    },
+    {
+     "id": 4358,
+     "type": "team",
+     "uid": "s:40~l:46~t:1",
+     "guid": "15096a54-f015-c987-5ec8-55afedf6272f",
+     "description": "Atlanta Hawks",
+     "sportId": 46,
+     "teamId": 1,
+     "team": {
+      "id": 1,
+      "description": "Atlanta Hawks",
+      "abbreviation": "ATL",
+      "shortDisplayName": "Hawks",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/atl/atlanta-hawks"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/atl/atlanta-hawks"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4245,
+     "type": "team",
+     "uid": "s:40~l:46~t:2",
+     "guid": "2ca761df-5f60-b2e9-22ed-e099c46d889b",
+     "description": "Boston Celtics",
+     "sportId": 46,
+     "teamId": 2,
+     "team": {
+      "id": 2,
+      "description": "Boston Celtics",
+      "abbreviation": "BOS",
+      "shortDisplayName": "Celtics",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/bos/boston-celtics"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/bos/boston-celtics"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 104965,
+     "type": "team",
+     "uid": "s:40~l:46~t:17",
+     "guid": "926db769-d35e-e282-9d7e-a05001d774ab",
+     "description": "Brooklyn Nets",
+     "sportId": 46,
+     "teamId": 17,
+     "team": {
+      "id": 17,
+      "description": "Brooklyn Nets",
+      "abbreviation": "BKN",
+      "shortDisplayName": "Nets",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/bkn/brooklyn-nets"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/bkn/brooklyn-nets"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 127884,
+     "type": "team",
+     "uid": "s:40~l:46~t:30",
+     "guid": "377633c2-0dd1-91a1-83c0-9ed2d0c00ea1",
+     "description": "Charlotte Hornets",
+     "sportId": 46,
+     "teamId": 30,
+     "team": {
+      "id": 30,
+      "description": "Charlotte Hornets",
+      "abbreviation": "CHA",
+      "shortDisplayName": "Hornets",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/cha/charlotte-hornets"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/cha/charlotte-hornets"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4392,
+     "type": "team",
+     "uid": "s:40~l:46~t:4",
+     "guid": "e588ccf1-ba03-ea43-c34c-9a9c8d1895ca",
+     "description": "Chicago Bulls",
+     "sportId": 46,
+     "teamId": 4,
+     "team": {
+      "id": 4,
+      "description": "Chicago Bulls",
+      "abbreviation": "CHI",
+      "shortDisplayName": "Bulls",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4408,
+     "type": "team",
+     "uid": "s:40~l:46~t:5",
+     "guid": "ec79ad1f-e6d2-7762-a2db-7fe97d35126b",
+     "description": "Cleveland Cavaliers",
+     "sportId": 46,
+     "teamId": 5,
+     "team": {
+      "id": 5,
+      "description": "Cleveland Cavaliers",
+      "abbreviation": "CLE",
+      "shortDisplayName": "Cavaliers",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4485,
+     "type": "team",
+     "uid": "s:40~l:46~t:6",
+     "guid": "f00d1f4e-4ce6-d581-466c-5b52531cf7ad",
+     "description": "Dallas Mavericks",
+     "sportId": 46,
+     "teamId": 6,
+     "team": {
+      "id": 6,
+      "description": "Dallas Mavericks",
+      "abbreviation": "DAL",
+      "shortDisplayName": "Mavericks",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/dal/dallas-mavericks"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/dal/dallas-mavericks"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4502,
+     "type": "team",
+     "uid": "s:40~l:46~t:7",
+     "guid": "c4aceb39-0eb9-a30b-1120-9cb5b12b677a",
+     "description": "Denver Nuggets",
+     "sportId": 46,
+     "teamId": 7,
+     "team": {
+      "id": 7,
+      "description": "Denver Nuggets",
+      "abbreviation": "DEN",
+      "shortDisplayName": "Nuggets",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4422,
+     "type": "team",
+     "uid": "s:40~l:46~t:8",
+     "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
+     "description": "Detroit Pistons",
+     "sportId": 46,
+     "teamId": 8,
+     "team": {
+      "id": 8,
+      "description": "Detroit Pistons",
+      "abbreviation": "DET",
+      "shortDisplayName": "Pistons",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4600,
+     "type": "team",
+     "uid": "s:40~l:46~t:9",
+     "guid": "77a8546f-24bf-a333-8161-bf9f75396c49",
+     "description": "Golden State Warriors",
+     "sportId": 46,
+     "teamId": 9,
+     "team": {
+      "id": 9,
+      "description": "Golden State Warriors",
+      "abbreviation": "GS",
+      "shortDisplayName": "Warriors",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4517,
+     "type": "team",
+     "uid": "s:40~l:46~t:10",
+     "guid": "78113ad4-1ac7-0c04-dada-388a6ff4e15e",
+     "description": "Houston Rockets",
+     "sportId": 46,
+     "teamId": 10,
+     "team": {
+      "id": 10,
+      "description": "Houston Rockets",
+      "abbreviation": "HOU",
+      "shortDisplayName": "Rockets",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4438,
+     "type": "team",
+     "uid": "s:40~l:46~t:11",
+     "guid": "547fc042-3e02-4795-9637-9ab84322b625",
+     "description": "Indiana Pacers",
+     "sportId": 46,
+     "teamId": 11,
+     "team": {
+      "id": 11,
+      "description": "Indiana Pacers",
+      "abbreviation": "IND",
+      "shortDisplayName": "Pacers",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 154798,
+     "type": "team",
+     "uid": "s:40~l:46~t:12",
+     "guid": "083a58a6-b849-3501-e67b-059290d12295",
+     "description": "LA Clippers",
+     "sportId": 46,
+     "teamId": 12,
+     "team": {
+      "id": 12,
+      "description": "LA Clippers",
+      "abbreviation": "LAC",
+      "shortDisplayName": "Clippers",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4630,
+     "type": "team",
+     "uid": "s:40~l:46~t:13",
+     "guid": "2876e98b-b9bc-2920-4319-46e6943f8be4",
+     "description": "Los Angeles Lakers",
+     "sportId": 46,
+     "teamId": 13,
+     "team": {
+      "id": 13,
+      "description": "Los Angeles Lakers",
+      "abbreviation": "LAL",
+      "shortDisplayName": "Lakers",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4584,
+     "type": "team",
+     "uid": "s:40~l:46~t:29",
+     "guid": "af5d4942-aeb5-2d07-2a8a-f70b54617e51",
+     "description": "Memphis Grizzlies",
+     "sportId": 46,
+     "teamId": 29,
+     "team": {
+      "id": 29,
+      "description": "Memphis Grizzlies",
+      "abbreviation": "MEM",
+      "shortDisplayName": "Grizzlies",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4259,
+     "type": "team",
+     "uid": "s:40~l:46~t:14",
+     "guid": "81e3212c-30ef-9b1b-5edb-453b13ff265a",
+     "description": "Miami Heat",
+     "sportId": 46,
+     "teamId": 14,
+     "team": {
+      "id": 14,
+      "description": "Miami Heat",
+      "abbreviation": "MIA",
+      "shortDisplayName": "Heat",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4453,
+     "type": "team",
+     "uid": "s:40~l:46~t:15",
+     "guid": "f59bbabc-eedb-9ad2-c5dd-9bcd9f450a2f",
+     "description": "Milwaukee Bucks",
+     "sportId": 46,
+     "teamId": 15,
+     "team": {
+      "id": 15,
+      "description": "Milwaukee Bucks",
+      "abbreviation": "MIL",
+      "shortDisplayName": "Bucks",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4533,
+     "type": "team",
+     "uid": "s:40~l:46~t:16",
+     "guid": "13f727cb-254d-b484-a337-93fcc0047add",
+     "description": "Minnesota Timberwolves",
+     "sportId": 46,
+     "teamId": 16,
+     "team": {
+      "id": 16,
+      "description": "Minnesota Timberwolves",
+      "abbreviation": "MIN",
+      "shortDisplayName": "Timberwolves",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 114922,
+     "type": "team",
+     "uid": "s:40~l:46~t:3",
+     "guid": "9461f397-7882-94c0-c18c-e89bdc9e570e",
+     "description": "New Orleans Pelicans",
+     "sportId": 46,
+     "teamId": 3,
+     "team": {
+      "id": 3,
+      "description": "New Orleans Pelicans",
+      "abbreviation": "NO",
+      "shortDisplayName": "Pelicans",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/no/new-orleans-pelicans"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/no/new-orleans-pelicans"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4293,
+     "type": "team",
+     "uid": "s:40~l:46~t:18",
+     "guid": "61719eb2-11c3-4e3d-90c3-0a1319fd850b",
+     "description": "New York Knicks",
+     "sportId": 46,
+     "teamId": 18,
+     "team": {
+      "id": 18,
+      "description": "New York Knicks",
+      "abbreviation": "NY",
+      "shortDisplayName": "Knicks",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4695,
+     "type": "team",
+     "uid": "s:40~l:46~t:25",
+     "guid": "bd458c44-2d33-47eb-cebc-35d3d4ac595c",
+     "description": "Oklahoma City Thunder",
+     "sportId": 46,
+     "teamId": 25,
+     "team": {
+      "id": 25,
+      "description": "Oklahoma City Thunder",
+      "abbreviation": "OKC",
+      "shortDisplayName": "Thunder",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/okc/oklahoma-city-thunder"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/okc/oklahoma-city-thunder"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4309,
+     "type": "team",
+     "uid": "s:40~l:46~t:19",
+     "guid": "74c23102-8c27-c8e6-ec1b-8a8fd4d42554",
+     "description": "Orlando Magic",
+     "sportId": 46,
+     "teamId": 19,
+     "team": {
+      "id": 19,
+      "description": "Orlando Magic",
+      "abbreviation": "ORL",
+      "shortDisplayName": "Magic",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/orl/orlando-magic"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/orl/orlando-magic"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4323,
+     "type": "team",
+     "uid": "s:40~l:46~t:20",
+     "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
+     "description": "Philadelphia 76ers",
+     "sportId": 46,
+     "teamId": 20,
+     "team": {
+      "id": 20,
+      "description": "Philadelphia 76ers",
+      "abbreviation": "PHI",
+      "shortDisplayName": "76ers",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4644,
+     "type": "team",
+     "uid": "s:40~l:46~t:21",
+     "guid": "c6eade89-5971-0e84-8ccb-cd91482b2b50",
+     "description": "Phoenix Suns",
+     "sportId": 46,
+     "teamId": 21,
+     "team": {
+      "id": 21,
+      "description": "Phoenix Suns",
+      "abbreviation": "PHX",
+      "shortDisplayName": "Suns",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/phx/phoenix-suns"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/phx/phoenix-suns"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4659,
+     "type": "team",
+     "uid": "s:40~l:46~t:22",
+     "guid": "ed294c02-3c44-db14-9e06-1b4e8cff9558",
+     "description": "Portland Trail Blazers",
+     "sportId": 46,
+     "teamId": 22,
+     "team": {
+      "id": 22,
+      "description": "Portland Trail Blazers",
+      "abbreviation": "POR",
+      "shortDisplayName": "Trail Blazers",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4676,
+     "type": "team",
+     "uid": "s:40~l:46~t:23",
+     "guid": "e266c4ea-9af3-1bd8-06fb-fd608fd30e26",
+     "description": "Sacramento Kings",
+     "sportId": 46,
+     "teamId": 23,
+     "team": {
+      "id": 23,
+      "description": "Sacramento Kings",
+      "abbreviation": "SAC",
+      "shortDisplayName": "Kings",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/sac/sacramento-kings"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/sac/sacramento-kings"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4548,
+     "type": "team",
+     "uid": "s:40~l:46~t:24",
+     "guid": "8aef8547-32f5-0943-a1de-e734567674cc",
+     "description": "San Antonio Spurs",
+     "sportId": 46,
+     "teamId": 24,
+     "team": {
+      "id": 24,
+      "description": "San Antonio Spurs",
+      "abbreviation": "SA",
+      "shortDisplayName": "Spurs",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/sa/san-antonio-spurs"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/sa/san-antonio-spurs"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4469,
+     "type": "team",
+     "uid": "s:40~l:46~t:28",
+     "guid": "5a9c33b8-63fd-ff34-a833-925fe89320a6",
+     "description": "Toronto Raptors",
+     "sportId": 46,
+     "teamId": 28,
+     "team": {
+      "id": 28,
+      "description": "Toronto Raptors",
+      "abbreviation": "TOR",
+      "shortDisplayName": "Raptors",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4564,
+     "type": "team",
+     "uid": "s:40~l:46~t:26",
+     "guid": "77cea2fb-1388-b7c8-d171-2e72b3aecbfb",
+     "description": "Utah Jazz",
+     "sportId": 46,
+     "teamId": 26,
+     "team": {
+      "id": 26,
+      "description": "Utah Jazz",
+      "abbreviation": "UTAH",
+      "shortDisplayName": "Jazz",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/utah/utah-jazz"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/utah/utah-jazz"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4339,
+     "type": "team",
+     "uid": "s:40~l:46~t:27",
+     "guid": "64d73af6-b8ec-e213-87e8-a4eab3a692e7",
+     "description": "Washington Wizards",
+     "sportId": 46,
+     "teamId": 27,
+     "team": {
+      "id": 27,
+      "description": "Washington Wizards",
+      "abbreviation": "WSH",
+      "shortDisplayName": "Wizards",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/wsh/washington-wizards"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/wsh/washington-wizards"
+        }
+       }
+      }
+     }
+    }
+   ],
+   "byline": "Dean Oliver",
+   "links": {
+    "web": {
+     "href": "https://www.espn.com/nba/story/_/id/50111217/nba-season-projections-2026-27-bpi"
+    }
+   },
+   "premium": false
+  },
+  {
+   "id": 50121620,
+   "nowId": "1-50121620",
+   "contentKey": "50121620-1-5-1",
+   "dataSourceIdentifier": "64c56385eb799",
+   "type": "HeadlineNews",
+   "headline": "Sources: EuroLeague teams reject offer to merge into NBA Europe",
+   "description": "Members of the EuroLeague rejected a formal offer from the NBA this week to merge and create a single NBA Europe operation, sources told ESPN.",
+   "lastModified": "2026-10-07T02:34:37Z",
+   "published": "2026-10-07T02:34:37Z",
+   "images": [],
+   "categories": [
+    {
+     "id": 409224,
+     "type": "topic",
+     "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+     "description": "news",
+     "sportId": 0,
+     "topicId": 781
+    },
+    {
+     "id": 9577,
+     "type": "league",
+     "uid": "s:40~l:46",
+     "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+     "description": "NBA",
+     "sportId": 46,
+     "leagueId": 46,
+     "league": {
+      "id": 46,
+      "description": "NBA",
+      "abbreviation": "NBA",
+      "links": {
+       "mobile": {
+        "leagues": {
+         "href": "https://www.espn.com/nba/"
+        }
+       },
+       "web": {
+        "leagues": {
+         "href": "https://www.espn.com/nba/"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 701427,
+     "type": "contributor",
+     "guid": "d364b0f5-51b3-37fe-b8e2-54fe436eb756",
+     "description": "Brian Windhorst",
+     "slug": "brian-windhorst",
+     "contributor": {
+      "id": 1883,
+      "description": "Brian Windhorst"
+     }
+    }
+   ],
+   "byline": "Brian Windhorst",
+   "links": {
+    "web": {
+     "href": "https://www.espn.com/nba/story/_/id/50121620/sources-euroleague-teams-reject-offer-merge-nba-europe"
+    }
+   },
+   "premium": false
+  },
+  {
+   "id": 50121039,
+   "nowId": "1-50121039",
+   "contentKey": "50121039-1-5-1",
+   "dataSourceIdentifier": "361364fef0293",
+   "type": "HeadlineNews",
+   "headline": "Haliburton buys Iowa St. students tickets for Pacers game",
+   "description": "Tyrese Haliburton purchased tickets for the student section at his alma mater Iowa State for the Pacers' first preseason game Wednesday.",
+   "lastModified": "2026-10-07T10:50:12Z",
+   "published": "2026-10-07T10:50:12Z",
+   "images": [],
+   "categories": [
+    {
+     "id": 409224,
+     "type": "topic",
+     "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+     "description": "news",
+     "sportId": 0,
+     "topicId": 781
+    },
+    {
+     "id": 9577,
+     "type": "league",
+     "uid": "s:40~l:46",
+     "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+     "description": "NBA",
+     "sportId": 46,
+     "leagueId": 46,
+     "league": {
+      "id": 46,
+      "description": "NBA",
+      "abbreviation": "NBA",
+      "links": {
+       "mobile": {
+        "leagues": {
+         "href": "https://www.espn.com/nba/"
+        }
+       },
+       "web": {
+        "leagues": {
+         "href": "https://www.espn.com/nba/"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4438,
+     "type": "team",
+     "uid": "s:40~l:46~t:11",
+     "guid": "547fc042-3e02-4795-9637-9ab84322b625",
+     "description": "Indiana Pacers",
+     "sportId": 46,
+     "teamId": 11,
+     "team": {
+      "id": 11,
+      "description": "Indiana Pacers",
+      "abbreviation": "IND",
+      "shortDisplayName": "Pacers",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 457677,
+     "type": "athlete",
+     "uid": "s:40~l:46~a:4396993",
+     "guid": "c4a0ba92-4e50-60af-a617-3345255115a7",
+     "description": "Tyrese Haliburton",
+     "sportId": 46,
+     "athleteId": 4396993,
+     "athlete": {
+      "id": 4396993,
+      "description": "Tyrese Haliburton",
+      "links": {
+       "mobile": {
+        "athletes": {
+         "href": "https://www.espn.com/nba/player/_/id/4396993/tyrese-haliburton"
+        }
+       },
+       "web": {
+        "athletes": {
+         "href": "https://www.espn.com/nba/player/_/id/4396993/tyrese-haliburton"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 696270,
+     "type": "contributor",
+     "guid": "4a6cc67f-ee21-3b0c-a8e6-67c4b3703876",
+     "description": "Jamal Collier",
+     "slug": "jamal-collier",
+     "contributor": {
+      "id": 3897,
+      "description": "Jamal Collier"
+     }
+    }
+   ],
+   "byline": "Jamal Collier",
+   "links": {
+    "web": {
+     "href": "https://www.espn.com/nba/story/_/id/50121039/haliburton-buys-iowa-st-students-tickets-pacers-game"
+    }
+   },
+   "premium": false
+  },
+  {
+   "id": 50028196,
+   "nowId": "1-50028196",
+   "contentKey": "50028196-1-6-1",
+   "dataSourceIdentifier": "6c1d8d0c3198e",
+   "type": "Story",
+   "headline": "NBA preseason buzz: Latest on trades, news and intel",
+   "description": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
+   "lastModified": "2026-10-06T20:24:58Z",
+   "published": "2026-10-06T20:24:58Z",
+   "images": [],
+   "categories": [
+    {
+     "id": 9577,
+     "type": "league",
+     "uid": "s:40~l:46",
+     "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+     "description": "NBA",
+     "sportId": 46,
+     "leagueId": 46,
+     "league": {
+      "id": 46,
+      "description": "NBA",
+      "abbreviation": "NBA",
+      "links": {
+       "mobile": {
+        "leagues": {
+         "href": "https://www.espn.com/nba/"
+        }
+       },
+       "web": {
+        "leagues": {
+         "href": "https://www.espn.com/nba/"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 409222,
+     "type": "topic",
+     "guid": "b66e959d-b64e-9bd6-7d5c-1bcb0d53c0cb",
+     "description": "daily",
+     "sportId": 0,
+     "topicId": 779
+    },
+    {
+     "id": 186377,
+     "type": "topic",
+     "guid": "ed07e700-de42-54a7-801c-285e65560e82",
+     "description": "nba free agency",
+     "sportId": 0,
+     "topicId": 677
+    },
+    {
+     "id": 128110,
+     "type": "topic",
+     "guid": "cf7d8580-5e4d-5fc2-4877-11791f7c3a90",
+     "description": "news - frontpage",
+     "sportId": 0,
+     "topicId": 92
+    },
+    {
+     "id": 701887,
+     "type": "contributor",
+     "guid": "3139123a-2bc7-3127-b40d-448cdb859378",
+     "description": "ESPN Staff Profile",
+     "slug": "espn-staff-profile",
+     "contributor": {
+      "id": 2462,
+      "description": "ESPN Staff Profile"
+     }
+    }
+   ],
+   "byline": "ESPN staff",
+   "links": {
+    "web": {
+     "href": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals"
+    }
+   },
+   "premium": false
+  },
+  {
+   "id": 50118908,
+   "nowId": "1-50118908",
+   "contentKey": "50118908-1-5-1",
+   "dataSourceIdentifier": "d002e84baf9d3",
+   "type": "HeadlineNews",
+   "headline": "76ers lose backup center Ariel Hukporti to torn Achilles",
+   "description": "The 76ers' thin frontcourt took a big blow Tuesday after an MRI confirmed backup center Ariel Hukporti suffered a torn right Achilles.",
+   "lastModified": "2026-10-07T10:50:34Z",
+   "published": "2026-10-07T10:50:34Z",
+   "images": [],
+   "categories": [
+    {
+     "id": 409224,
+     "type": "topic",
+     "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+     "description": "news",
+     "sportId": 0,
+     "topicId": 781
+    },
+    {
+     "id": 9577,
+     "type": "league",
+     "uid": "s:40~l:46",
+     "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+     "description": "NBA",
+     "sportId": 46,
+     "leagueId": 46,
+     "league": {
+      "id": 46,
+      "description": "NBA",
+      "abbreviation": "NBA",
+      "links": {
+       "mobile": {
+        "leagues": {
+         "href": "https://www.espn.com/nba/"
+        }
+       },
+       "web": {
+        "leagues": {
+         "href": "https://www.espn.com/nba/"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 4323,
+     "type": "team",
+     "uid": "s:40~l:46~t:20",
+     "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
+     "description": "Philadelphia 76ers",
+     "sportId": 46,
+     "teamId": 20,
+     "team": {
+      "id": 20,
+      "description": "Philadelphia 76ers",
+      "abbreviation": "PHI",
+      "shortDisplayName": "76ers",
+      "links": {
+       "mobile": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+        }
+       },
+       "web": {
+        "teams": {
+         "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 667360,
+     "type": "athlete",
+     "uid": "s:40~l:46~a:4871141",
+     "guid": "a6049cfa-a67e-3f3b-b609-5dba889ec7a6",
+     "description": "Ariel Hukporti",
+     "sportId": 46,
+     "athleteId": 4871141,
+     "athlete": {
+      "id": 4871141,
+      "description": "Ariel Hukporti",
+      "links": {
+       "mobile": {
+        "athletes": {
+         "href": "https://www.espn.com/nba/player/_/id/4871141/ariel-hukporti"
+        }
+       },
+       "web": {
+        "athletes": {
+         "href": "https://www.espn.com/nba/player/_/id/4871141/ariel-hukporti"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": 698422,
+     "type": "contributor",
+     "guid": "1d8ecf87-0581-33b4-9cad-7e7d488956ab",
+     "description": "Dave McMenamin",
+     "slug": "dave-mcmenamin",
+     "contributor": {
+      "id": 1836,
+      "description": "Dave McMenamin"
+     }
+    }
+   ],
+   "byline": "Dave McMenamin",
+   "links": {
+    "web": {
+     "href": "https://www.espn.com/nba/story/_/id/50118908/76ers-lose-backup-center-ariel-hukporti-torn-achilles"
+    }
+   },
+   "premium": false
+  }
+ ]
+}

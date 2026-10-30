@@ -1,0 +1,152 @@
+{
+  "fantasy_content": {
+    "xml:lang": "en-US",
+    "yahoo:uri": "/fantasy/v2/x",
+    "player": [
+      [
+        {
+          "player_key": "466.p.5352"
+        },
+        {
+          "player_id": "5352"
+        },
+        {
+          "name": {
+            "full": "Nikola Jokic",
+            "first": "Nikola",
+            "last": "Jokic",
+            "ascii_first": "Nikola",
+            "ascii_last": "Jokic"
+          }
+        },
+        {
+          "editorial_player_key": "nba.p.5352"
+        },
+        {
+          "editorial_team_key": "nba.t.7"
+        },
+        {
+          "editorial_team_full_name": "Team"
+        },
+        {
+          "editorial_team_abbr": "Den"
+        },
+        {
+          "uniform_number": "15"
+        },
+        {
+          "display_position": "C"
+        },
+        {
+          "headshot": {
+            "url": "https://s.yimg.com/x.png",
+            "size": "small"
+          }
+        },
+        {
+          "image_url": "https://s.yimg.com/x.png"
+        },
+        {
+          "is_undroppable": "0"
+        },
+        {
+          "position_type": "P"
+        },
+        {
+          "primary_position": "C"
+        },
+        {
+          "eligible_positions": [
+            {
+              "position": "C"
+            },
+            {
+              "position": "Util"
+            }
+          ]
+        },
+        [],
+        {
+          "has_player_notes": 1
+        }
+      ],
+      {
+        "player_stats": {
+          "coverage_type": "season",
+          "season": "2026",
+          "stats": [
+            {
+              "stat": {
+                "stat_id": "0",
+                "value": "70"
+              }
+            },
+            {
+              "stat": {
+                "stat_id": "2",
+                "value": "34.0"
+              }
+            },
+            {
+              "stat": {
+                "stat_id": "9004003",
+                "value": "11.3/19.8"
+              }
+            },
+            {
+              "stat": {
+                "stat_id": "9007006",
+                "value": "6.1/7.3"
+              }
+            },
+            {
+              "stat": {
+                "stat_id": "10",
+                "value": "2.0"
+              }
+            },
+            {
+              "stat": {
+                "stat_id": "12",
+                "value": "29.0"
+              }
+            },
+            {
+              "stat": {
+                "stat_id": "15",
+                "value": "12.5"
+              }
+            },
+            {
+              "stat": {
+                "stat_id": "16",
+                "value": "10.0"
+              }
+            },
+            {
+              "stat": {
+                "stat_id": "17",
+                "value": "1.7"
+              }
+            },
+            {
+              "stat": {
+                "stat_id": "18",
+                "value": "0.8"
+              }
+            },
+            {
+              "stat": {
+                "stat_id": "19",
+                "value": "3.3"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "time": "12.3ms",
+    "copyright": "Data provided by Yahoo! and STATS, LLC",
+    "refresh_rate": "60"
+  }
+}

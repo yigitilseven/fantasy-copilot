@@ -1,0 +1,26 @@
+{
+  "meta": { "version": 1, "request": "https://cdn.nba.com/static/json/staticData/scheduleLeagueV2.json" },
+  "leagueSchedule": {
+    "seasonYear": "2026-27",
+    "gameDates": [
+      { "gameDate": "10/13/2026 00:00:00", "games": [
+        { "gameId": "0012600010", "gameLabel": "Preseason", "gameDateEst": "2026-10-13T00:00:00Z", "homeTeam": { "teamTricode": "LAL" }, "awayTeam": { "teamTricode": "BOS" } }
+      ] },
+      { "gameDate": "10/20/2026 00:00:00", "games": [
+        { "gameId": "0022600001", "gameLabel": "", "gameDateEst": "2026-10-20T00:00:00Z", "gameDateTimeEst": "2026-10-20T19:30:00Z", "homeTeam": { "teamTricode": "LAL" }, "awayTeam": { "teamTricode": "BOS" } },
+        { "gameId": "0022600002", "gameLabel": "", "gameDateEst": "2026-10-20T00:00:00Z", "homeTeam": { "teamTricode": "NY" }, "awayTeam": { "teamTricode": "MIA" } }
+      ] },
+      { "gameDate": "10/21/2026 00:00:00", "games": [
+        { "gameId": "0022600003", "gameLabel": "", "gameDateEst": "2026-10-21T00:00:00Z", "homeTeam": { "teamTricode": "GS" }, "awayTeam": { "teamTricode": "DEN" } }
+      ] },
+      { "gameDate": "10/22/2026 00:00:00", "games": [
+        { "gameId": "0022600004", "gameLabel": "", "gameDateEst": "2026-10-22T00:00:00Z", "homeTeam": { "teamTricode": "LAL" }, "awayTeam": { "teamTricode": "DEN" } },
+        { "gameId": "", "gameLabel": "Play-In Tournament", "gameDateEst": "2026-10-22T00:00:00Z", "homeTeam": { "teamTricode": "CHI" }, "awayTeam": { "teamTricode": "ATL" } }
+      ] },
+      { "gameDate": "10/24/2026 00:00:00", "games": [
+        { "gameId": "0022600005", "gameLabel": "", "gameDateEst": "2026-10-24T00:00:00Z", "homeTeam": { "teamTricode": "BOS" }, "awayTeam": { "teamTricode": "ORL" } },
+        { "gameId": "0042600001", "gameLabel": "First Round", "gameDateEst": "2026-10-24T00:00:00Z", "homeTeam": { "teamTricode": "MIL" }, "awayTeam": { "teamTricode": "IND" } }
+      ] }
+    ]
+  }
+}

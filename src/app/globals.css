@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+/*
+ * Fantasy Copilot design tokens (docs: Figma "Design system · Fantasy Copilot").
+ * Dark is the default; light follows the system unless the user picks a theme (Settings -> data-theme on <html>).
+ * The draft room keeps its own zinc palette and is not themed.
+ */
+:root {
+  --fc-canvas: #090c11;
+  --fc-panel: #11161e;
+  --fc-raised: #19212c;
+  --fc-rule: #28313e;
+  --fc-ink: #f3f6fa;
+  --fc-ink-2: #99a6b8;
+  --fc-ink-3: #66758a;
+  --fc-brand: #438bff;
+  --fc-brand-ink: #ffffff;
+  --fc-brand-bg: #142b4d;
+  --fc-pos: #6bd6a1;
+  --fc-pos-bg: #142d25;
+  --fc-warn: #f2be62;
+  --fc-warn-bg: #33291a;
+  --fc-neg: #f3818b;
+  --fc-neg-bg: #351e27;
+  --fc-track: #28313e;
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --fc-canvas: #f1f4f8;
+    --fc-panel: #ffffff;
+    --fc-raised: #e6ecf4;
+    --fc-rule: #d3dce8;
+    --fc-ink: #142032;
+    --fc-ink-2: #53647b;
+    --fc-ink-3: #7b8aa0;
+    --fc-brand: #2f74e8;
+    --fc-brand-bg: #dbe8fd;
+    --fc-pos: #1f9d63;
+    --fc-pos-bg: #ddf3e8;
+    --fc-warn: #b7791f;
+    --fc-warn-bg: #fbefd9;
+    --fc-neg: #d34452;
+    --fc-neg-bg: #fbe3e6;
+    --fc-track: #d3dce8;
+    color-scheme: light;
+  }
+}
+:root[data-theme="light"] {
+  --fc-canvas: #f1f4f8;
+  --fc-panel: #ffffff;
+  --fc-raised: #e6ecf4;
+  --fc-rule: #d3dce8;
+  --fc-ink: #142032;
+  --fc-ink-2: #53647b;
+  --fc-ink-3: #7b8aa0;
+  --fc-brand: #2f74e8;
+  --fc-brand-bg: #dbe8fd;
+  --fc-pos: #1f9d63;
+  --fc-pos-bg: #ddf3e8;
+  --fc-warn: #b7791f;
+  --fc-warn-bg: #fbefd9;
+  --fc-neg: #d34452;
+  --fc-neg-bg: #fbe3e6;
+  --fc-track: #d3dce8;
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-canvas: var(--fc-canvas);
+  --color-panel: var(--fc-panel);
+  --color-raised: var(--fc-raised);
+  --color-rule: var(--fc-rule);
+  --color-ink: var(--fc-ink);
+  --color-ink-2: var(--fc-ink-2);
+  --color-ink-3: var(--fc-ink-3);
+  --color-brand: var(--fc-brand);
+  --color-brand-ink: var(--fc-brand-ink);
+  --color-brand-bg: var(--fc-brand-bg);
+  --color-pos: var(--fc-pos);
+  --color-pos-bg: var(--fc-pos-bg);
+  --color-warn: var(--fc-warn);
+  --color-warn-bg: var(--fc-warn-bg);
+  --color-neg: var(--fc-neg);
+  --color-neg-bg: var(--fc-neg-bg);
+  --color-track: var(--fc-track);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-plex-mono);
+}
+
+body {
+  background: var(--fc-canvas);
+  color: var(--fc-ink);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+/* Micro label: 10-11px caps with +1.3 tracking (design system). */
+.fc-label {
+  font-size: 11px;
+  line-height: 1.3;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--fc-ink-2);
+}
+.fc-num {
+  font-family: var(--font-plex-mono), ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+}

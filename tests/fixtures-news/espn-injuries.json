@@ -1,0 +1,1491 @@
+{
+ "timestamp": "2026-10-07T14:21:59Z",
+ "status": "success",
+ "season": {
+  "year": 2027,
+  "type": 1,
+  "name": "Preseason",
+  "displayName": "2026-27"
+ },
+ "injuries": [
+  {
+   "id": "1",
+   "displayName": "Atlanta Hawks",
+   "injuries": [
+    {
+     "id": "533251",
+     "longComment": "This appears to be a minor injury for Wiggins, but the Hawks will play it safe by sitting him down for the remainder of the matchup. He can be considered day-to-day leading up to Thursday's exhibition against San Antonio.",
+     "shortComment": "Wiggins won't return to Monday's preseason game against the Grizzlies due to a cut to his inner lip. He'll end with seven points (2-4 FG, 1-2 3Pt, 2-2 FT) in 11 minutes.",
+     "status": "Day-To-Day",
+     "date": "2026-10-06T00:29Z",
+     "athlete": {
+      "firstName": "Aaron",
+      "lastName": "Wiggins",
+      "displayName": "Aaron Wiggins",
+      "shortName": "A. Wiggins",
+      "links": [
+       {
+        "language": "en-US",
+        "rel": [
+         "playercard",
+         "desktop",
+         "athlete"
+        ],
+        "href": "https://www.espn.com/nba/player/_/id/4397183/aaron-wiggins",
+        "text": "Player Card",
+        "shortText": "Player Card",
+        "isExternal": false,
+        "isPremium": false
+       }
+      ],
+      "position": {
+       "id": "3",
+       "name": "Guard",
+       "displayName": "Guard",
+       "abbreviation": "G",
+       "leaf": false
+      },
+      "notes": {
+       "items": [
+        {
+         "id": "533251",
+         "type": "news",
+         "date": "2026-10-06T00:29Z",
+         "headline": "Wiggins won't return to Monday's preseason game against the Grizzlies due to a cut to his inner lip. He'll end with seven points (2-4 FG, 1-2 3Pt, 2-2 FT) in 11 minutes.",
+         "text": "This appears to be a minor injury for Wiggins, but the Hawks will play it safe by sitting him down for the remainder of the matchup. He can be considered day-to-day leading up to Thursday's exhibition against San Antonio.",
+         "source": "RotoWire",
+         "injury": {
+          "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4397183/injuries/533251?lang=en&region=us"
+         }
+        }
+       ]
+      },
+      "status": {
+       "id": "1",
+       "name": "Active",
+       "type": "active",
+       "abbreviation": "Active"
+      }
+     },
+     "source": {
+      "id": "1",
+      "description": "basic/manual",
+      "state": "basic"
+     },
+     "type": {
+      "id": "6",
+      "name": "INJURY_STATUS_DAYTODAY",
+      "description": "day-to-day",
+      "abbreviation": "DD"
+     },
+     "details": {
+      "fantasyStatus": {
+       "description": "GTD",
+       "abbreviation": "GTD"
+      },
+      "type": "Lips",
+      "location": "Head",
+      "detail": "Laceration",
+      "side": "Not Specified",
+      "returnDate": "2026-10-08"
+     }
+    },
+    {
+     "id": "533221",
+     "longComment": "The veteran swingman will be held out of Atlanta's preseason opener, leaving more minutes available for the likes of Corey Kispert, Aaron Wiggins and Jalen Wilson. Dort's next chance to play in the preseason will come Thursday against the Spurs.",
+     "shortComment": "Dort won't play in Monday's preseason game against the Grizzlies due to a right knee contusion, Kevin Chouinard of the Hawks' official site reports.",
+     "status": "Day-To-Day",
+     "date": "2026-10-05T21:17Z",
+     "athlete": {
+      "firstName": "Luguentz",
+      "lastName": "Dort",
+      "displayName": "Luguentz Dort",
+      "shortName": "L. Dort",
+      "links": [
+       {
+        "language": "en-US",
+        "rel": [
+         "playercard",
+         "desktop",
+         "athlete"
+        ],
+        "href": "https://www.espn.com/nba/player/_/id/4397020/luguentz-dort",
+        "text": "Player Card",
+        "shortText": "Player Card",
+        "isExternal": false,
+        "isPremium": false
+       }
+      ],
+      "position": {
+       "id": "3",
+       "name": "Guard",
+       "displayName": "Guard",
+       "abbreviation": "G",
+       "leaf": false
+      },
+      "notes": {
+       "items": [
+        {
+         "id": "533221",
+         "type": "news",
+         "date": "2026-10-05T21:17Z",
+         "headline": "Dort won't play in Monday's preseason game against the Grizzlies due to a right knee contusion, Kevin Chouinard of the Hawks' official site reports.",
+         "text": "The veteran swingman will be held out of Atlanta's preseason opener, leaving more minutes available for the likes of Corey Kispert, Aaron Wiggins and Jalen Wilson. Dort's next chance to play in the preseason will come Thursday against the Spurs.",
+         "source": "RotoWire",
+         "injury": {
+          "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4397020/injuries/533221?lang=en&region=us"
+         }
+        }
+       ]
+      },
+      "status": {
+       "id": "1",
+       "name": "Active",
+       "type": "active",
+       "abbreviation": "Active"
+      }
+     },
+     "source": {
+      "id": "1",
+      "description": "basic/manual",
+      "state": "basic"
+     },
+     "type": {
+      "id": "6",
+      "name": "INJURY_STATUS_DAYTODAY",
+      "description": "day-to-day",
+      "abbreviation": "DD"
+     },
+     "details": {
+      "fantasyStatus": {
+       "description": "GTD",
+       "abbreviation": "GTD"
+      },
+      "type": "Knee",
+      "location": "Leg",
+      "detail": "Bruise",
+      "side": "Right",
+      "returnDate": "2026-10-08"
+     }
+    },
+    {
+     "id": "533220",
+     "longComment": "McCollum is dealing with a bruised nose and will skip Monday's exhibition, but it shouldn't affect his status for the regular-season opener. His next chance to play will come Thursday in San Antonio.",
+     "shortComment": "McCollum is out for Monday's preseason opener against the Grizzlies due to a nose contusion, Brad Rowland of the Locked On Podcast Network reports.",
+     "status": "Day-To-Day",
+     "date": "2026-10-05T21:16Z",
+     "athlete": {
+      "firstName": "CJ",
+      "lastName": "McCollum",
+      "displayName": "CJ McCollum",
+      "shortName": "C. McCollum",
+      "links": [
+       {
+        "language": "en-US",
+        "rel": [
+         "playercard",
+         "desktop",
+         "athlete"
+        ],
+        "href": "https://www.espn.com/nba/player/_/id/2490149/cj-mccollum",
+        "text": "Player Card",
+        "shortText": "Player Card",
+        "isExternal": false,
+        "isPremium": false
+       }
+      ],
+      "position": {
+       "id": "3",
+       "name": "Guard",
+       "displayName": "Guard",
+       "abbreviation": "G",
+       "leaf": false
+      },
+      "notes": {
+       "items": [
+        {
+         "id": "533220",
+         "type": "news",
+         "date": "2026-10-05T21:16Z",
+         "headline": "McCollum is out for Monday's preseason opener against the Grizzlies due to a nose contusion, Brad Rowland of the Locked On Podcast Network reports.",
+         "text": "McCollum is dealing with a bruised nose and will skip Monday's exhibition, but it shouldn't affect his status for the regular-season opener. His next chance to play will come Thursday in San Antonio.",
+         "source": "RotoWire",
+         "injury": {
+          "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/athletes/2490149/injuries/533220?lang=en&region=us"
+         }
+        }
+       ]
+      },
+      "status": {
+       "id": "1",
+       "name": "Active",
+       "type": "active",
+       "abbreviation": "Active"
+      }
+     },
+     "source": {
+      "id": "1",
+      "description": "basic/manual",
+      "state": "basic"
+     },
+     "type": {
+      "id": "6",
+      "name": "INJURY_STATUS_DAYTODAY",
+      "description": "day-to-day",
+      "abbreviation": "DD"
+     },
+     "details": {
+      "fantasyStatus": {
+       "description": "GTD",
+       "abbreviation": "GTD"
+      },
+      "type": "Nose",
+      "location": "Head",
+      "detail": "Bruise",
+      "returnDate": "2026-10-08"
+     }
+    },
+    {
+     "id": "-57577",
+     "longComment": "Veesaar suffered the injury during a workout on Sept. 15, and an MRI confirmed the diagnosis. The No. 52 overall pick in the 2026 NBA Draft, Veesaar was expected to spend a lot of time with Atlanta's G League affiliate this season.",
+     "shortComment": "Veesaar was diagnosed with a torn right ACL and is expected to miss the 2026-27 season, the Hawks announced Monday.",
+     "status": "Out",
+     "date": "2026-09-21T19:50Z",
+     "athlete": {
+      "firstName": "Henri",
+      "lastName": "Veesaar",
+      "displayName": "Henri Veesaar",
+      "shortName": "H. Veesaar",
+      "links": [
+       {
+        "language": "en-US",
+        "rel": [
+         "playercard",
+         "desktop",
+         "athlete"
+        ],
+        "href": "https://www.espn.com/nba/player/_/id/5105571/henri-veesaar",
+        "text": "Player Card",
+        "shortText": "Player Card",
+        "isExternal": false,
+        "isPremium": false
+       }
+      ],
+      "position": {
+       "id": "9",
+       "name": "Center",
+       "displayName": "Center",
+       "abbreviation": "C",
+       "leaf": false
+      },
+      "notes": {
+       "items": [
+        {
+         "id": "-57577",
+         "type": "news",
+         "date": "2026-09-21T19:50Z",
+         "headline": "Veesaar was diagnosed with a torn right ACL and is expected to miss the 2026-27 season, the Hawks announced Monday.",
+         "text": "Veesaar suffered the injury during a workout on Sept. 15, and an MRI confirmed the diagnosis. The No. 52 overall pick in the 2026 NBA Draft, Veesaar was expected to spend a lot of time with Atlanta's G League affiliate this season.",
+         "source": "RotoWire",
+         "injury": {
+          "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/athletes/5105571/injuries/-57577?lang=en&region=us"
+         }
+        }
+       ]
+      },
+      "status": {
+       "id": "1",
+       "name": "Active",
+       "type": "active",
+       "abbreviation": "Active"
+      }
+     },
+     "source": {
+      "id": "1",
+      "description": "basic/manual",
+      "state": "basic"
+     },
+     "type": {
+      "id": "4",
+      "name": "INJURY_STATUS_OUT",
+      "description": "out",
+      "abbreviation": "O"
+     },
+     "details": {
+      "fantasyStatus": {
+       "description": "OFS",
+       "abbreviation": "OFS"
+      },
+      "type": "Knee",
+      "location": "Leg",
+      "side": "Right",
+      "returnDate": "2027-07-01"
+     }
+    },
+    {
+     "id": "-56292",
+     "longComment": "Gueye will be re-evaluated by medical staff in 3-to-4 months, which means he'll miss all of training camp and preseason and likely the start of the 2026-27 regular season. It's a brutal blow for the fourth-year big man, given that the Hawks used the No. 23 overall pick of the 2026 NBA Draft to select St. John's product Zuby Ejiofor. Gueye's absence means Ejiofor will have more opportunities in the preseason, and the rookie could establish a key role off the bench behind Onyeka Okongwu and projected backup center Jock Landale (ankle).",
+     "shortComment": "Gueye underwent surgery Tuesday to repair a fractured left foot that he suffered during a workout last week, Brad Rowland of the Locked On Podcast Network reports.",
+     "status": "Day-To-Day",
+     "date": "2026-07-19T00:14Z",
+     "athlete": {
+      "firstName": "Mouhamed",
+      "lastName": "Gueye",
+      "displayName": "Mouhamed Gueye",
+      "shortName": "M. Gueye",
+      "links": [
+       {
+        "language": "en-US",
+        "rel": [
+         "playercard",
+         "desktop",
+         "athlete"
+        ],
+        "href": "https://www.espn.com/nba/player/_/id/4712863/mouhamed-gueye",
+        "text": "Player Card",
+        "shortText": "Player Card",
+        "isExternal": false,
+        "isPremium": false
+       }
+      ],
+      "position": {
+       "id": "7",
+       "name": "Forward",
+       "displayName": "Forward",
+       "abbreviation": "F",
+       "leaf": false
+      },
+      "notes": {
+       "items": [
+        {
+         "id": "-56292",
+         "type": "news",
+         "date": "2026-07-19T00:14Z",
+         "headline": "Gueye underwent surgery Tuesday to repair a fractured left foot that he suffered during a workout last week, Brad Rowland of the Locked On Podcast Network reports.",
+         "text": "Gueye will be re-evaluated by medical staff in 3-to-4 months, which means he'll miss all of training camp and preseason and likely the start of the 2026-27 regular season. It's a brutal blow for the fourth-year big man, given that the Hawks used the No. 23 overall pick of the 2026 NBA Draft to select St. John's product Zuby Ejiofor. Gueye's absence means Ejiofor will have more opportunities in the preseason, and the rookie could establish a key role off the bench behind Onyeka Okongwu and projected backup center Jock Landale (ankle).",
+         "source": "RotoWire",
+         "injury": {
+          "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4712863/injuries/-56292?lang=en&region=us"
+         }
+        }
+       ]
+      },
+      "status": {
+       "id": "1",
+       "name": "Active",
+       "type": "active",
+       "abbreviation": "Active"
+      }
+     },
+     "source": {
+      "id": "1",
+      "description": "basic/manual",
+      "state": "basic"
+     },
+     "type": {
+      "id": "6",
+      "name": "INJURY_STATUS_DAYTODAY",
+      "description": "day-to-day",
+      "abbreviation": "DD"
+     },
+     "details": {
+      "fantasyStatus": {
+       "description": "GTD",
+       "abbreviation": "GTD"
+      },
+      "type": "Foot",
+      "location": "Leg",
+      "detail": "Fracture",
+      "side": "Left",
+      "returnDate": "2026-10-21"
+     }
+    }
+   ]
+  },
+  {
+   "id": "9",
+   "displayName": "Golden State Warriors",
+   "injuries": [
+    {
+     "id": "533430",
+     "longComment": "Curry made the most of his limited court time, drilling three shots beyond the arc in short order. Curry won't travel with the team to Portland, and the veteran's preseason participation is expected to be very limited to avoid injury and keep him fresh for the regular season.",
+     "shortComment": "Curry generated 16 points, 4-7 FG, 3-6 3Pt, 5-6 FT), five assists and two rebounds across 14 minutes in Tuesday's 124-98 preseason win over the Lakers.",
+     "status": "Day-To-Day",
+     "date": "2026-10-07T13:20Z",
+     "athlete": {
+      "firstName": "Stephen",
+      "lastName": "Curry",
+      "displayName": "Stephen Curry",
+      "shortName": "S. Curry",
+      "links": [
+       {
+        "language": "en-US",
+        "rel": [
+         "playercard",
+         "desktop",
+         "athlete"
+        ],
+        "href": "https://www.espn.com/nba/player/_/id/3975/stephen-curry",
+        "text": "Player Card",
+        "shortText": "Player Card",
+        "isExternal": false,
+        "isPremium": false
+       }
+      ],
+      "position": {
+       "id": "3",
+       "name": "Guard",
+       "displayName": "Guard",
+       "abbreviation": "G",
+       "leaf": false
+      },
+      "notes": {
+       "items": [
+        {
+         "id": "533430",
+         "type": "news",
+         "date": "2026-10-07T13:20Z",
+         "headline": "Curry generated 16 points, 4-7 FG, 3-6 3Pt, 5-6 FT), five assists and two rebounds across 14 minutes in Tuesday's 124-98 preseason win over the Lakers.",
+         "text": "Curry made the most of his limited court time, drilling three shots beyond the arc in short order. Curry won't travel with the team to Portland, and the veteran's preseason participation is expected to be very limited to avoid injury and keep him fresh for the regular season.",
+         "source": "RotoWire",
+         "injury": {
+          "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3975/injuries/533430?lang=en&region=us"
+         }
+        }
+       ]
+      },
+      "status": {
+       "id": "1",
+       "name": "Active",
+       "type": "active",
+       "abbreviation": "Active"
+      }
+     },
+     "source": {
+      "id": "1",
+      "description": "basic/manual",
+      "state": "basic"
+     },
+     "type": {
+      "id": "6",
+      "name": "INJURY_STATUS_DAYTODAY",
+      "description": "day-to-day",
+      "abbreviation": "DD"
+     },
+     "details": {
+      "fantasyStatus": {
+       "description": "GTD",
+       "abbreviation": "GTD"
+      },
+      "type": "Rest",
+      "location": "Other",
+      "returnDate": "2026-10-10"
+     }
+    },
+    {
+     "id": "-57727",
+     "longComment": "The Warriors are being cautious with Green's workload in the preseason, so he'll be limited to around 20 minutes Tuesday and won't suit up Wednesday. This is part of a long-term picture, as the idea is to have Green as healthy as possible for the start of the regular season against the Lakers on Oct. 21.",
+     "shortComment": "Green will be limited to around 20 minutes in Tuesday's preseason contest against the Lakers and won't travel to Portland for Wednesday's back-to-back against the Trail Blazers, Anthony Slater of ESPN.com reports.",
+     "status": "Day-To-Day",
+     "date": "2026-10-07T04:48Z",
+     "athlete": {
+      "firstName": "Draymond",
+      "lastName": "Green",
+      "displayName": "Draymond Green",
+      "shortName": "D. Green",
+      "links": [
+       {
+        "language": "en-US",
+        "rel": [
+         "playercard",
+         "desktop",
+         "athlete"
+        ],
+        "href": "https://www.espn.com/nba/player/_/id/6589/draymond-green",
+        "text": "Player Card",
+        "shortText": "Player Card",
+        "isExternal": false,
+        "isPremium": false
+       }
+      ],
+      "position": {
+       "id": "7",
+       "name": "Forward",
+       "displayName": "Forward",
+       "abbreviation": "F",
+       "leaf": false
+      },
+      "notes": {
+       "items": [
+        {
+         "id": "-57727",
+         "type": "news",
+         "date": "2026-10-07T04:48Z",
+         "headline": "Green will be limited to around 20 minutes in Tuesday's preseason contest against the Lakers and won't travel to Portland for Wednesday's back-to-back against the Trail Blazers, Anthony Slater of ESPN.com reports.",
+         "text": "The Warriors are being cautious with Green's workload in the preseason, so he'll be limited to around 20 minutes Tuesday and won't suit up Wednesday. This is part of a long-term picture, as the idea is to have Green as healthy as possible for the start of the regular season against the Lakers on Oct. 21.",
+         "source": "RotoWire",
+         "injury": {
+          "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/athletes/6589/injuries/-57727?lang=en&region=us"
+         }
+        }
+       ]
+      },
+      "status": {
+       "id": "1",
+       "name": "Active",
+       "type": "active",
+       "abbreviation": "Active"
+      }
+     },
+     "source": {
+      "id": "1",
+      "description": "basic/manual",
+      "state": "basic"
+     },
+     "type": {
+      "id": "6",
+      "name": "INJURY_STATUS_DAYTODAY",
+      "description": "day-to-day",
+      "abbreviation": "DD"
+     },
+     "details": {
+      "fantasyStatus": {
+       "description": "GTD",
+       "abbreviation": "GTD"
+      },
+      "type": "Rest",
+      "location": "Other",
+      "returnDate": "2026-10-10"
+     }
+    },
+    {
+     "id": "-57726",
+     "longComment": "The Warriors will go with a small-ball starting lineup Tuesday, featuring Draymond Green and Yaxel Lendeborg in the post, with Horford shifting to the second unit. It's unlikely the 40-year-old veteran will earn enough consistent minutes in Golden State this season to warrant a roster spot in most fantasy leagues.",
+     "shortComment": "Horford will come off the bench for Tuesday's preseason game against the Lakers and he will not travel to Portland for Wednesday's exhibition, Anthony Slater of ESPN.com reports.",
+     "status": "Day-To-Day",
+     "date": "2026-10-07T04:47Z",
+     "athlete": {
+      "firstName": "Al",
+      "lastName": "Horford",
+      "displayName": "Al Horford",
+      "shortName": "A. Horford",
+      "links": [
+       {
+        "language": "en-US",
+        "rel": [
+         "playercard",
+         "desktop",
+         "athlete"
+        ],
+        "href": "https://www.espn.com/nba/player/_/id/3213/al-horford",
+        "text": "Player Card",
+        "shortText": "Player Card",
+        "isExternal": false,
+        "isPremium": false
+       }
+      ],
+      "position": {
+       "id": "9",
+       "name": "Center",
+       "displayName": "Center",
+       "abbreviation": "C",
+       "leaf": false
+      },
+      "notes": {
+       "items": [
+        {
+         "id": "-57726",
+         "type": "news",
+         "date": "2026-10-07T04:47Z",
+         "headline": "Horford will come off the bench for Tuesday's preseason game against the Lakers and he will not travel to Portland for Wednesday's exhibition, Anthony Slater of ESPN.com reports.",
+         "text": "The Warriors will go with a small-ball starting lineup Tuesday, featuring Draymond Green and Yaxel Lendeborg in the post, with Horford shifting to the second unit. It's unlikely the 40-year-old veteran will earn enough consistent minutes in Golden State this season to warrant a roster spot in most fantasy leagues.",
+         "source": "RotoWire",
+         "injury": {
+          "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3213/injuries/-57726?lang=en&region=us"
+         }
+        }
+       ]
+      },
+      "status": {
+       "id": "1",
+       "name": "Active",
+       "type": "active",
+       "abbreviation": "Active"
+      }
+     },
+     "source": {
+      "id": "1",
+      "description": "basic/manual",
+      "state": "basic"
+     },
+     "type": {
+      "id": "6",
+      "name": "INJURY_STATUS_DAYTODAY",
+      "description": "day-to-day",
+      "abbreviation": "DD"
+     },
+     "details": {
+      "fantasyStatus": {
+       "description": "GTD",
+       "abbreviation": "GTD"
+      },
+      "type": "Rest",
+      "location": "Other",
+      "returnDate": "2026-10-10"
+     }
+    },
+    {
+     "id": "533363",
+     "longComment": "The Warriors still aren't ready to offer up a return timeline for Porzingis, who's battling an undisclosed issue. The big man carries plenty of upside on a per-game basis in the later rounds of fantasy drafts, but he's reached the 60-game mark just one time in the past eight regular seasons.",
+     "shortComment": "Porzingis (undisclosed) remains out indefinitely, per Anthony Slater of ESPN.com.",
+     "status": "Day-To-Day",
+     "date": "2026-10-06T20:04Z",
+     "athlete": {
+      "firstName": "Kristaps",
+      "lastName": "Porzingis",
+      "displayName": "Kristaps Porzingis",
+      "shortName": "K. Porzingis",
+      "links": [
+       {
+        "language": "en-US",
+        "rel": [
+         "playercard",
+         "desktop",
+         "athlete"
+        ],
+        "href": "https://www.espn.com/nba/player/_/id/3102531/kristaps-porzingis",
+        "text": "Player Card",
+        "shortText": "Player Card",
+        "isExternal": false,
+        "isPremium": false
+       }
+      ],
+      "position": {
+       "id": "9",
+       "name": "Center",
+       "displayName": "Center",
+       "abbreviation": "C",
+       "leaf": false
+      },
+      "notes": {
+       "items": [
+        {
+         "id": "533363",
+         "type": "news",
+         "date": "2026-10-06T20:04Z",
+         "headline": "Porzingis (undisclosed) remains out indefinitely, per Anthony Slater of ESPN.com.",
+         "text": "The Warriors still aren't ready to offer up a return timeline for Porzingis, who's battling an undisclosed issue. The big man carries plenty of upside on a per-game basis in the later rounds of fantasy drafts, but he's reached the 60-game mark just one time in the past eight regular seasons.",
+         "source": "RotoWire",
+         "injury": {
+          "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3102531/injuries/533363?lang=en&region=us"
+         }
+        }
+       ]
+      },
+      "status": {
+       "id": "1",
+       "name": "Active",
+       "type": "active",
+       "abbreviation": "Active"
+      }
+     },
+     "source": {
+      "id": "1",
+      "description": "basic/manual",
+      "state": "basic"
+     },
+     "type": {
+      "id": "6",
+      "name": "INJURY_STATUS_DAYTODAY",
+      "description": "day-to-day",
+      "abbreviation": "DD"
+     },
+     "details": {
+      "fantasyStatus": {
+       "description": "GTD",
+       "abbreviation": "GTD"
+      },
+      "type": "Undisclosed",
+      "location": "Other",
+      "returnDate": "2026-10-13"
+     }
+    },
+    {
+     "id": "533069",
+     "longComment": "Butler is still months away from retaking the floor, according to Nick Friedell of The Athletic, so a season debut at some point December might be too optimistic. The star forward remains without a definitive timeline for a return after undergoing ACL surgery in early February, which typically carries at least a nine-month recovery period. Butler makes sense as an injury stash at the end of fantasy drafts, but managers should likely be bracing for him to miss at least the first two months of the regular season.",
+     "shortComment": "The Warriors hope to have Butler (knee) back early in 2027, per Keith Watkins of Yahoo Sports.",
+     "status": "Out",
+     "date": "2026-10-02T18:48Z",
+     "athlete": {
+      "firstName": "Jimmy",
+      "lastName": "Butler III",
+      "displayName": "Jimmy Butler III",
+      "shortName": "J. Butler III",
+      "links": [
+       {
+        "language": "en-US",
+        "rel": [
+         "playercard",
+         "desktop",
+         "athlete"
+        ],
+        "href": "https://www.espn.com/nba/player/_/id/6430/jimmy-butler-iii",
+        "text": "Player Card",
+        "shortText": "Player Card",
+        "isExternal": false,
+        "isPremium": false
+       }
+      ],
+      "position": {
+       "id": "7",
+       "name": "Forward",
+       "displayName": "Forward",
+       "abbreviation": "F",
+       "leaf": false
+      },
+      "notes": {
+       "items": [
+        {
+         "id": "533069",
+         "type": "news",
+         "date": "2026-10-02T18:48Z",
+         "headline": "The Warriors hope to have Butler (knee) back early in 2027, per Keith Watkins of Yahoo Sports.",
+         "text": "Butler is still months away from retaking the floor, according to Nick Friedell of The Athletic, so a season debut at some point December might be too optimistic. The star forward remains without a definitive timeline for a return after undergoing ACL surgery in early February, which typically carries at least a nine-month recovery period. Butler makes sense as an injury stash at the end of fantasy drafts, but managers should likely be bracing for him to miss at least the first two months of the regular season.",
+         "source": "RotoWire",
+         "injury": {
+          "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/athletes/6430/injuries/533069?lang=en&region=us"
+         }
+        }
+       ]
+      },
+      "status": {
+       "id": "1",
+       "name": "Active",
+       "type": "active",
+       "abbreviation": "Active"
+      }
+     },
+     "source": {
+      "id": "1",
+      "description": "basic/manual",
+      "state": "basic"
+     },
+     "type": {
+      "id": "4",
+      "name": "INJURY_STATUS_OUT",
+      "description": "out",
+      "abbreviation": "O"
+     },
+     "details": {
+      "fantasyStatus": {
+       "description": "OUT",
+       "abbreviation": "OUT"
+      },
+      "type": "Knee",
+      "location": "Leg",
+      "detail": "Surgery",
+      "side": "Right",
+      "returnDate": "2027-01-02"
+     }
+    },
+    {
+     "id": "532849",
+     "longComment": "Moody suffered the injury March 23 and underwent season-ending surgery four days later. The 24-year-old had been targeting September to resume running and on-court work, so his latest progress appears to keep his rehabilitation on track, though he remains without a firm timetable for his return to game action.",
+     "shortComment": "Moody has progressed to light on-court activities as he continues his recovery from a ruptured left patellar tendon, Evan Webeck of The Mercury News reports.",
+     "status": "Out",
+     "date": "2026-09-28T15:06Z",
+     "athlete": {
+      "firstName": "Moses",
+      "lastName": "Moody",
+      "displayName": "Moses Moody",
+      "shortName": "M. Moody",
+      "links": [
+       {
+        "language": "en-US",
+        "rel": [
+         "playercard",
+         "desktop",
+         "athlete"
+        ],
+        "href": "https://www.espn.com/nba/player/_/id/4432171/moses-moody",
+        "text": "Player Card",
+        "shortText": "Player Card",
+        "isExternal": false,
+        "isPremium": false
+       }
+      ],
+      "position": {
+       "id": "3",
+       "name": "Guard",
+       "displayName": "Guard",
+       "abbreviation": "G",
+       "leaf": false
+      },
+      "notes": {
+       "items": [
+        {
+         "id": "532849",
+         "type": "news",
+         "date": "2026-09-28T15:06Z",
+         "headline": "Moody has progressed to light on-court activities as he continues his recovery from a ruptured left patellar tendon, Evan Webeck of The Mercury News reports.",
+         "text": "Moody suffered the injury March 23 and underwent season-ending surgery four days later. The 24-year-old had been targeting September to resume running and on-court work, so his latest progress appears to keep his rehabilitation on track, though he remains without a firm timetable for his return to game action.",
+         "source": "RotoWire",
+         "injury": {
+          "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4432171/injuries/532849?lang=en&region=us"
+         }
+        }
+       ]
+      },
+      "status": {
+       "id": "1",
+       "name": "Active",
+       "type": "active",
+       "abbreviation": "Active"
+      }
+     },
+     "source": {
+      "id": "1",
+      "description": "basic/manual",
+      "state": "basic"
+     },
+     "type": {
+      "id": "4",
+      "name": "INJURY_STATUS_OUT",
+      "description": "out",
+      "abbreviation": "O"
+     },
+     "details": {
+      "fantasyStatus": {
+       "description": "OUT",
+       "abbreviation": "OUT"
+      },
+      "type": "Knee",
+      "location": "Leg",
+      "detail": "Surgery",
+      "side": "Left",
+      "returnDate": "2026-12-01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "20",
+   "displayName": "Philadelphia 76ers",
+   "injuries": [
+    {
+     "id": "533362",
+     "longComment": "Hukporti went down with an Achilles injury in Monday's preseason opener against the Knicks, and an MRI has since revealed a rupture. He signed a one-year deal with the 76ers over the summer, so Hukporti will be an unrestricted free agent come season's end. With Hukporti's year already finished, Adem Bona (foot) should assume the backup center role behind Joel Embiid once healthy.",
+     "shortComment": "Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charania of ESPN.",
+     "status": "Out",
+     "date": "2026-10-06T19:17Z",
+     "athlete": {
+      "firstName": "Ariel",
+      "lastName": "Hukporti",
+      "displayName": "Ariel Hukporti",
+      "shortName": "A. Hukporti",
+      "links": [
+       {
+        "language": "en-US",
+        "rel": [
+         "playercard",
+         "desktop",
+         "athlete"
+        ],
+        "href": "https://www.espn.com/nba/player/_/id/4871141/ariel-hukporti",
+        "text": "Player Card",
+        "shortText": "Player Card",
+        "isExternal": false,
+        "isPremium": false
+       }
+      ],
+      "position": {
+       "id": "9",
+       "name": "Center",
+       "displayName": "Center",
+       "abbreviation": "C",
+       "leaf": false
+      },
+      "notes": {
+       "items": [
+        {
+         "id": "533362",
+         "type": "news",
+         "date": "2026-10-06T19:17Z",
+         "headline": "Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charania of ESPN.",
+         "text": "Hukporti went down with an Achilles injury in Monday's preseason opener against the Knicks, and an MRI has since revealed a rupture. He signed a one-year deal with the 76ers over the summer, so Hukporti will be an unrestricted free agent come season's end. With Hukporti's year already finished, Adem Bona (foot) should assume the backup center role behind Joel Embiid once healthy.",
+         "source": "RotoWire",
+         "injury": {
+          "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4871141/injuries/533362?lang=en&region=us"
+         }
+        }
+       ]
+      },
+      "status": {
+       "id": "1",
+       "name": "Active",
+       "type": "active",
+       "abbreviation": "Active"
+      }
+     },
+     "source": {
+      "id": "1",
+      "description": "basic/manual",
+      "state": "basic"
+     },
+     "type": {
+      "id": "4",
+      "name": "INJURY_STATUS_OUT",
+      "description": "out",
+      "abbreviation": "O"
+     },
+     "details": {
+      "fantasyStatus": {
+       "description": "OUT",
+       "abbreviation": "OUT"
+      },
+      "type": "Achilles",
+      "location": "Leg",
+      "detail": "Ruptured",
+      "side": "Right",
+      "returnDate": "2027-10-01"
+     }
+    },
+    {
+     "id": "533196",
+     "longComment": "Simons will join Joel Embiid, LeBron James and Tyrese Maxey on the sidelines for the preseason opener. It's unclear whether Simons is dealing with an injury or not, but if he isn't, his exclusion from the opener would signal that his spot in the rotation is fairly secure heading into his first season with Philadelphia.",
+     "shortComment": "Simons (rest) won't play in Monday's preseason game against the Knicks, Chris Hine of The Minnesota Star Tribune reports.",
+     "status": "Day-To-Day",
+     "date": "2026-10-05T17:59Z",
+     "athlete": {
+      "firstName": "Anfernee",
+      "lastName": "Simons",
+      "displayName": "Anfernee Simons",
+      "shortName": "A. Simons",
+      "links": [
+       {
+        "language": "en-US",
+        "rel": [
+         "playercard",
+         "desktop",
+         "athlete"
+        ],
+        "href": "https://www.espn.com/nba/player/_/id/4351851/anfernee-simons",
+        "text": "Player Card",
+        "shortText": "Player Card",
+        "isExternal": false,
+        "isPremium": false
+       }
+      ],
+      "position": {
+       "id": "3",
+       "name": "Guard",
+       "displayName": "Guard",
+       "abbreviation": "G",
+       "leaf": false
+      },
+      "notes": {
+       "items": [
+        {
+         "id": "533196",
+         "type": "news",
+         "date": "2026-10-05T17:59Z",
+         "headline": "Simons (rest) won't play in Monday's preseason game against the Knicks, Chris Hine of The Minnesota Star Tribune reports.",
+         "text": "Simons will join Joel Embiid, LeBron James and Tyrese Maxey on the sidelines for the preseason opener. It's unclear whether Simons is dealing with an injury or not, but if he isn't, his exclusion from the opener would signal that his spot in the rotation is fairly secure heading into his first season with Philadelphia.",
+         "source": "RotoWire",
+         "injury": {
+          "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4351851/injuries/533196?lang=en&region=us"
+         }
+        }
+       ]
+      },
+      "status": {
+       "id": "1",
+       "name": "Active",
+       "type": "active",
+       "abbreviation": "Active"
+      }
+     },
+     "source": {
+      "id": "1",
+      "description": "basic/manual",
+      "state": "basic"
+     },
+     "type": {
+      "id": "6",
+      "name": "INJURY_STATUS_DAYTODAY",
+      "description": "day-to-day",
+      "abbreviation": "DD"
+     },
+     "details": {
+      "fantasyStatus": {
+       "description": "GTD",
+       "abbreviation": "GTD"
+      },
+      "type": "Undisclosed",
+      "location": "Other",
+      "returnDate": "2026-10-08"
+     }
+    },
+    {
+     "id": "533195",
+     "longComment": "Barlow also didn't participate in Saturday's team scrimmage. With Philadelphia thin in the frontcourt due to injuries to Adem Bona (foot) and Tacko Fall (hip), Barlow could see opportunities at center once he's available.",
+     "shortComment": "Barlow will be rested for Monday's preseason game against the Knicks, Chris Hine of The Minnesota Star Tribune reports.",
+     "status": "Day-To-Day",
+     "date": "2026-10-05T17:56Z",
+     "athlete": {
+      "firstName": "Dominick",
+      "lastName": "Barlow",
+      "displayName": "Dominick Barlow",
+      "shortName": "D. Barlow",
+      "links": [
+       {
+        "language": "en-US",
+        "rel": [
+         "playercard",
+         "desktop",
+         "athlete"
+        ],
+        "href": "https://www.espn.com/nba/player/_/id/4870562/dominick-barlow",
+        "text": "Player Card",
+        "shortText": "Player Card",
+        "isExternal": false,
+        "isPremium": false
+       }
+      ],
+      "position": {
+       "id": "7",
+       "name": "Forward",
+       "displayName": "Forward",
+       "abbreviation": "F",
+       "leaf": false
+      },
+      "notes": {
+       "items": [
+        {
+         "id": "533195",
+         "type": "news",
+         "date": "2026-10-05T17:56Z",
+         "headline": "Barlow will be rested for Monday's preseason game against the Knicks, Chris Hine of The Minnesota Star Tribune reports.",
+         "text": "Barlow also didn't participate in Saturday's team scrimmage. With Philadelphia thin in the frontcourt due to injuries to Adem Bona (foot) and Tacko Fall (hip), Barlow could see opportunities at center once he's available.",
+         "source": "RotoWire",
+         "injury": {
+          "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4870562/injuries/533195?lang=en&region=us"
+         }
+        }
+       ]
+      },
+      "status": {
+       "id": "1",
+       "name": "Active",
+       "type": "active",
+       "abbreviation": "Active"
+      }
+     },
+     "source": {
+      "id": "1",
+      "description": "basic/manual",
+      "state": "basic"
+     },
+     "type": {
+      "id": "6",
+      "name": "INJURY_STATUS_DAYTODAY",
+      "description": "day-to-day",
+      "abbreviation": "DD"
+     },
+     "details": {
+      "fantasyStatus": {
+       "description": "GTD",
+       "abbreviation": "GTD"
+      },
+      "type": "Back",
+      "location": "Torso",
+      "returnDate": "2026-10-08"
+     }
+    },
+    {
+     "id": "533194",
+     "longComment": "Bona has been sidelined by a foot sprain suffered during FIBA competition and has yet to practice during training camp. Coach Nick Nurse recently expressed optimism that Bona could return for a couple of Philadelphia's preseason contests, making his status worth monitoring over the coming days.",
+     "shortComment": "Bona (foot) will not play in Monday's preseason opener against New York, Chris Hine of The Minnesota Star Tribune reports.",
+     "status": "Day-To-Day",
+     "date": "2026-10-05T17:54Z",
+     "athlete": {
+      "firstName": "Adem",
+      "lastName": "Bona",
+      "displayName": "Adem Bona",
+      "shortName": "A. Bona",
+      "links": [
+       {
+        "language": "en-US",
+        "rel": [
+         "playercard",
+         "desktop",
+         "athlete"
+        ],
+        "href": "https://www.espn.com/nba/player/_/id/5105637/adem-bona",
+        "text": "Player Card",
+        "shortText": "Player Card",
+        "isExternal": false,
+        "isPremium": false
+       }
+      ],
+      "position": {
+       "id": "9",
+       "name": "Center",
+       "displayName": "Center",
+       "abbreviation": "C",
+       "leaf": false
+      },
+      "notes": {
+       "items": [
+        {
+         "id": "533194",
+         "type": "news",
+         "date": "2026-10-05T17:54Z",
+         "headline": "Bona (foot) will not play in Monday's preseason opener against New York, Chris Hine of The Minnesota Star Tribune reports.",
+         "text": "Bona has been sidelined by a foot sprain suffered during FIBA competition and has yet to practice during training camp. Coach Nick Nurse recently expressed optimism that Bona could return for a couple of Philadelphia's preseason contests, making his status worth monitoring over the coming days.",
+         "source": "RotoWire",
+         "injury": {
+          "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/athletes/5105637/injuries/533194?lang=en&region=us"
+         }
+        }
+       ]
+      },
+      "status": {
+       "id": "1",
+       "name": "Active",
+       "type": "active",
+       "abbreviation": "Active"
+      }
+     },
+     "source": {
+      "id": "1",
+      "description": "basic/manual",
+      "state": "basic"
+     },
+     "type": {
+      "id": "6",
+      "name": "INJURY_STATUS_DAYTODAY",
+      "description": "day-to-day",
+      "abbreviation": "DD"
+     },
+     "details": {
+      "fantasyStatus": {
+       "description": "GTD",
+       "abbreviation": "GTD"
+      },
+      "type": "Foot",
+      "location": "Leg",
+      "detail": "Sprain",
+      "side": "Not Specified",
+      "returnDate": "2026-10-08"
+     }
+    },
+    {
+     "id": "533193",
+     "longComment": "With Maxey, LeBron James, Joel Embiid and Anfernee Simons all resting during the preseason opener, more usage will be available for second-year guard VJ Edgecombe and rookie Labaron Philon. It's unclear if Maxey will be available for Thursday's preseason game in Brooklyn.",
+     "shortComment": "Maxey (rest) won't play in Monday's preseason game against the Knicks, Chris Hine of The Minnesota Star Tribune reports.",
+     "status": "Day-To-Day",
+     "date": "2026-10-05T17:54Z",
+     "athlete": {
+      "firstName": "Tyrese",
+      "lastName": "Maxey",
+      "displayName": "Tyrese Maxey",
+      "shortName": "T. Maxey",
+      "links": [
+       {
+        "language": "en-US",
+        "rel": [
+         "playercard",
+         "desktop",
+         "athlete"
+        ],
+        "href": "https://www.espn.com/nba/player/_/id/4431678/tyrese-maxey",
+        "text": "Player Card",
+        "shortText": "Player Card",
+        "isExternal": false,
+        "isPremium": false
+       }
+      ],
+      "position": {
+       "id": "3",
+       "name": "Guard",
+       "displayName": "Guard",
+       "abbreviation": "G",
+       "leaf": false
+      },
+      "notes": {
+       "items": [
+        {
+         "id": "533193",
+         "type": "news",
+         "date": "2026-10-05T17:54Z",
+         "headline": "Maxey (rest) won't play in Monday's preseason game against the Knicks, Chris Hine of The Minnesota Star Tribune reports.",
+         "text": "With Maxey, LeBron James, Joel Embiid and Anfernee Simons all resting during the preseason opener, more usage will be available for second-year guard VJ Edgecombe and rookie Labaron Philon. It's unclear if Maxey will be available for Thursday's preseason game in Brooklyn.",
+         "source": "RotoWire",
+         "injury": {
+          "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4431678/injuries/533193?lang=en&region=us"
+         }
+        }
+       ]
+      },
+      "status": {
+       "id": "1",
+       "name": "Active",
+       "type": "active",
+       "abbreviation": "Active"
+      }
+     },
+     "source": {
+      "id": "1",
+      "description": "basic/manual",
+      "state": "basic"
+     },
+     "type": {
+      "id": "6",
+      "name": "INJURY_STATUS_DAYTODAY",
+      "description": "day-to-day",
+      "abbreviation": "DD"
+     },
+     "details": {
+      "fantasyStatus": {
+       "description": "GTD",
+       "abbreviation": "GTD"
+      },
+      "type": "Rest",
+      "location": "Other",
+      "returnDate": "2026-10-08"
+     }
+    },
+    {
+     "id": "533191",
+     "longComment": "James won't make his 76ers debut Monday and will be joined on the sidelines by Joel Embiid and Tyrese Maxey. James is dealing with chronic arthritis in his left foot as he prepares for his first season with the 76ers. His longtime trainer, Mike Mancias, is reportedly giving the 41-year-old's left foot special attention during his daily pre-practice routine while continuing to manage the lower-back issues that caused James to miss the first month of the 2025-26 regular season with sciatica. The arthritis isn't necessarily new, as James appeared on injury reports with left foot arthritis last season, but Philadelphia has already discussed managing his workload and back-to-backs, making his availability worth monitoring throughout his 24th NBA campaign.",
+     "shortComment": "James (rest) has been ruled out for Monday's game against the Knicks, Chris Hine of The Minnesota Star Tribune reports.",
+     "status": "Day-To-Day",
+     "date": "2026-10-05T17:52Z",
+     "athlete": {
+      "firstName": "LeBron",
+      "lastName": "James",
+      "displayName": "LeBron James",
+      "shortName": "L. James",
+      "links": [
+       {
+        "language": "en-US",
+        "rel": [
+         "playercard",
+         "desktop",
+         "athlete"
+        ],
+        "href": "https://www.espn.com/nba/player/_/id/1966/lebron-james",
+        "text": "Player Card",
+        "shortText": "Player Card",
+        "isExternal": false,
+        "isPremium": false
+       }
+      ],
+      "position": {
+       "id": "7",
+       "name": "Forward",
+       "displayName": "Forward",
+       "abbreviation": "F",
+       "leaf": false
+      },
+      "notes": {
+       "items": [
+        {
+         "id": "533191",
+         "type": "news",
+         "date": "2026-10-05T17:52Z",
+         "headline": "James (rest) has been ruled out for Monday's game against the Knicks, Chris Hine of The Minnesota Star Tribune reports.",
+         "text": "James won't make his 76ers debut Monday and will be joined on the sidelines by Joel Embiid and Tyrese Maxey. James is dealing with chronic arthritis in his left foot as he prepares for his first season with the 76ers. His longtime trainer, Mike Mancias, is reportedly giving the 41-year-old's left foot special attention during his daily pre-practice routine while continuing to manage the lower-back issues that caused James to miss the first month of the 2025-26 regular season with sciatica. The arthritis isn't necessarily new, as James appeared on injury reports with left foot arthritis last season, but Philadelphia has already discussed managing his workload and back-to-backs, making his availability worth monitoring throughout his 24th NBA campaign.",
+         "source": "RotoWire",
+         "injury": {
+          "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/athletes/1966/injuries/533191?lang=en&region=us"
+         }
+        }
+       ]
+      },
+      "status": {
+       "id": "1",
+       "name": "Active",
+       "type": "active",
+       "abbreviation": "Active"
+      }
+     },
+     "source": {
+      "id": "1",
+      "description": "basic/manual",
+      "state": "basic"
+     },
+     "type": {
+      "id": "6",
+      "name": "INJURY_STATUS_DAYTODAY",
+      "description": "day-to-day",
+      "abbreviation": "DD"
+     },
+     "details": {
+      "fantasyStatus": {
+       "description": "GTD",
+       "abbreviation": "GTD"
+      },
+      "type": "Rest",
+      "location": "Other",
+      "returnDate": "2026-10-08"
+     }
+    },
+    {
+     "id": "533189",
+     "longComment": "Embiid, LeBron James, Tyrese Maxey and Anfernee Simons, among others, will take a seat for the preseason opener, leaving plenty of usage available for second-year guard VJ Edgecombe and rookie Labaron Philon. It's unclear if Embiid will suit up Thursday in Brooklyn, but the big man's workload will continue to be closely managed during the 2026-27 season.",
+     "shortComment": "Embiid (rest) won't play in Monday's preseason game against the Knicks, Chris Hine of The Minnesota Star Tribune reports.",
+     "status": "Day-To-Day",
+     "date": "2026-10-05T17:49Z",
+     "athlete": {
+      "firstName": "Joel",
+      "lastName": "Embiid",
+      "displayName": "Joel Embiid",
+      "shortName": "J. Embiid",
+      "links": [
+       {
+        "language": "en-US",
+        "rel": [
+         "playercard",
+         "desktop",
+         "athlete"
+        ],
+        "href": "https://www.espn.com/nba/player/_/id/3059318/joel-embiid",
+        "text": "Player Card",
+        "shortText": "Player Card",
+        "isExternal": false,
+        "isPremium": false
+       }
+      ],
+      "position": {
+       "id": "9",
+       "name": "Center",
+       "displayName": "Center",
+       "abbreviation": "C",
+       "leaf": false
+      },
+      "notes": {
+       "items": [
+        {
+         "id": "533189",
+         "type": "news",
+         "date": "2026-10-05T17:49Z",
+         "headline": "Embiid (rest) won't play in Monday's preseason game against the Knicks, Chris Hine of The Minnesota Star Tribune reports.",
+         "text": "Embiid, LeBron James, Tyrese Maxey and Anfernee Simons, among others, will take a seat for the preseason opener, leaving plenty of usage available for second-year guard VJ Edgecombe and rookie Labaron Philon. It's unclear if Embiid will suit up Thursday in Brooklyn, but the big man's workload will continue to be closely managed during the 2026-27 season.",
+         "source": "RotoWire",
+         "injury": {
+          "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3059318/injuries/533189?lang=en&region=us"
+         }
+        }
+       ]
+      },
+      "status": {
+       "id": "1",
+       "name": "Active",
+       "type": "active",
+       "abbreviation": "Active"
+      }
+     },
+     "source": {
+      "id": "1",
+      "description": "basic/manual",
+      "state": "basic"
+     },
+     "type": {
+      "id": "6",
+      "name": "INJURY_STATUS_DAYTODAY",
+      "description": "day-to-day",
+      "abbreviation": "DD"
+     },
+     "details": {
+      "fantasyStatus": {
+       "description": "GTD",
+       "abbreviation": "GTD"
+      },
+      "type": "Rest",
+      "location": "Other",
+      "returnDate": "2026-10-08"
+     }
+    },
+    {
+     "id": "-57633",
+     "longComment": "This is a tough blow for Fall, as he's already facing an uphill battle to make the final roster. A return Oct. 16 isn't out of the question based on this timetable.",
+     "shortComment": "Fall was diagnosed with a left hip strain Thursday and will miss at least two weeks, Kyle Neubeck of AllPHLY.com reports.",
+     "status": "Day-To-Day",
+     "date": "2026-10-01T22:07Z",
+     "athlete": {
+      "firstName": "Tacko",
+      "lastName": "Fall",
+      "displayName": "Tacko Fall",
+      "shortName": "T. Fall",
+      "links": [
+       {
+        "language": "en-US",
+        "rel": [
+         "playercard",
+         "desktop",
+         "athlete"
+        ],
+        "href": "https://www.espn.com/nba/player/_/id/3904625/tacko-fall",
+        "text": "Player Card",
+        "shortText": "Player Card",
+        "isExternal": false,
+        "isPremium": false
+       }
+      ],
+      "position": {
+       "id": "9",
+       "name": "Center",
+       "displayName": "Center",
+       "abbreviation": "C",
+       "leaf": false
+      },
+      "notes": {
+       "items": [
+        {
+         "id": "-57633",
+         "type": "news",
+         "date": "2026-10-01T22:07Z",
+         "headline": "Fall was diagnosed with a left hip strain Thursday and will miss at least two weeks, Kyle Neubeck of AllPHLY.com reports.",
+         "text": "This is a tough blow for Fall, as he's already facing an uphill battle to make the final roster. A return Oct. 16 isn't out of the question based on this timetable.",
+         "source": "RotoWire",
+         "injury": {
+          "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3904625/injuries/-57633?lang=en&region=us"
+         }
+        }
+       ]
+      },
+      "status": {
+       "id": "1",
+       "name": "Active",
+       "type": "active",
+       "abbreviation": "Active"
+      }
+     },
+     "source": {
+      "id": "1",
+      "description": "basic/manual",
+      "state": "basic"
+     },
+     "type": {
+      "id": "6",
+      "name": "INJURY_STATUS_DAYTODAY",
+      "description": "day-to-day",
+      "abbreviation": "DD"
+     },
+     "details": {
+      "fantasyStatus": {
+       "description": "GTD",
+       "abbreviation": "GTD"
+      },
+      "type": "Hip",
+      "location": "Torso",
+      "side": "Left",
+      "returnDate": "2026-10-16"
+     }
+    }
+   ]
+  }
+ ]
+}

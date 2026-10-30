@@ -1,0 +1,140 @@
+{
+  "fantasy_content": {
+    "xml:lang": "en-US",
+    "yahoo:uri": "/fantasy/v2/x",
+    "users": {
+      "0": {
+        "user": [
+          {
+            "guid": "ABC123"
+          },
+          {
+            "games": {
+              "0": {
+                "game": [
+                  {
+                    "game_key": "466"
+                  },
+                  {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "466.l.12345.t.6"
+                            },
+                            {
+                              "team_id": "6"
+                            },
+                            {
+                              "name": "Wizards"
+                            },
+                            [],
+                            {
+                              "url": "u"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "x"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "waiver_priority": 3
+                            },
+                            {
+                              "number_of_moves": "0"
+                            },
+                            {
+                              "draft_position": 6
+                            },
+                            {
+                              "is_owned_by_current_login": 1
+                            },
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "1",
+                                    "nickname": "Me",
+                                    "guid": "ABC123"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "466.l.67890.t.2"
+                            },
+                            {
+                              "team_id": "2"
+                            },
+                            {
+                              "name": "Side"
+                            },
+                            [],
+                            {
+                              "url": "u"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "x"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "waiver_priority": 3
+                            },
+                            {
+                              "number_of_moves": "0"
+                            },
+                            {
+                              "draft_position": 2
+                            },
+                            {
+                              "is_owned_by_current_login": 1
+                            },
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "1",
+                                    "nickname": "Me",
+                                    "guid": "ABC123"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                ]
+              },
+              "count": 1
+            }
+          }
+        ]
+      },
+      "count": 1
+    },
+    "time": "12.3ms",
+    "copyright": "Data provided by Yahoo! and STATS, LLC",
+    "refresh_rate": "60"
+  }
+}

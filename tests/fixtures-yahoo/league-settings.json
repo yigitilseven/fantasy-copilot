@@ -1,0 +1,104 @@
+{
+  "fantasy_content": {
+    "xml:lang": "en-US",
+    "yahoo:uri": "/fantasy/v2/x",
+    "league": [
+      {
+        "league_key": "466.l.12345",
+        "name": "Draft Kings",
+        "num_teams": 14,
+        "draft_status": "predraft",
+        "scoring_type": "head"
+      },
+      {
+        "settings": {
+          "draft_type": "live",
+          "is_auction_draft": "0",
+          "scoring_type": "head",
+          "roster_positions": [
+            {
+              "roster_position": {
+                "position": "PG",
+                "position_type": "P",
+                "count": 1
+              }
+            },
+            {
+              "roster_position": {
+                "position": "SG",
+                "position_type": "P",
+                "count": 1
+              }
+            },
+            {
+              "roster_position": {
+                "position": "G",
+                "position_type": "P",
+                "count": 1
+              }
+            },
+            {
+              "roster_position": {
+                "position": "SF",
+                "position_type": "P",
+                "count": 1
+              }
+            },
+            {
+              "roster_position": {
+                "position": "PF",
+                "position_type": "P",
+                "count": 1
+              }
+            },
+            {
+              "roster_position": {
+                "position": "F",
+                "position_type": "P",
+                "count": 1
+              }
+            },
+            {
+              "roster_position": {
+                "position": "C",
+                "position_type": "P",
+                "count": 2
+              }
+            },
+            {
+              "roster_position": {
+                "position": "Util",
+                "position_type": "P",
+                "count": 2
+              }
+            },
+            {
+              "roster_position": {
+                "position": "BN",
+                "position_type": "P",
+                "count": 3
+              }
+            },
+            {
+              "roster_position": {
+                "position": "IL",
+                "position_type": "P",
+                "count": 1
+              }
+            },
+            {
+              "roster_position": {
+                "position": "IL+",
+                "position_type": "P",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "time": "12.3ms",
+    "copyright": "Data provided by Yahoo! and STATS, LLC",
+    "refresh_rate": "60"
+  }
+}

@@ -1,0 +1,4 @@
+player_id,projected_games,current_status,injury_history_score,rest_risk,availability_score,major_injury_history,updated_at
+jokic,70,healthy,0.1,0.2,0.9,false,2026-10-01T00:00:00Z
+curry,65,day-to-day,0.4,0.3,0.8,true,2026-10-01T00:00:00Z
+tatum,68,healthy,0.2,0.1,0.85,false,2026-10-01T00:00:00Z
